@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ##   T2-fisher 	: 	Automated Phishing Tool
-##   Author 	: 	YT 2Timeowl 
+##   Author 	: 	YD 2Timeowl 
 ##   Version 	: 	2.1
 ##   Github 	: 	https://github.com/2Timeowl
 
@@ -156,7 +156,7 @@ banner() {
                 ${ORANGE}╱╱╰╯╱╰━━━╯╱╰╯╰┻━━┻╯╰┻━━┻╯     
                                         ${RED}Version : 2.1
 
-		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by htr-tech (tahmid.rayat)${WHITE}
+		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by 2Timeowl (Yash)${WHITE}
 	EOF
 }
 
