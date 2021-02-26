@@ -163,6 +163,7 @@ banner() {
 ## Small Banner
 banner_small() {
 	cat <<- EOF
+                ${BLUE}
 	        ${BLUE} ▀█▀ ▀█ ▄▄ █▀▀ █ █▀ █░█ █▀▀ █▀█
                 ${BLUE} ░█░ █▄ ░░ █▀░ █ ▄█ █▀█ ██▄ █▀▄${WHITE} 2.1
 	EOF
@@ -366,13 +367,13 @@ tunnel_menu() {
 	{ clear; banner_small; }
 	cat <<- EOF
 
-		${RED}[${WHITE}01${RED}]${ORANGE} Localhost ${RED}[${CYAN}For Devs Only${RED}]
-		${RED}[${WHITE}02${RED}]${ORANGE} Ngrok.io  ${RED}[${CYAN}Hotspot Required${RED}]
-		${RED}[${WHITE}03${RED}]${ORANGE} Ngrok.io  ${RED}[${CYAN}Without Hotspot${RED}]
+		${YELLOW}[${WHITE}01${RED}]${ORANGE} Localhost ${YELLOW}[${CYAN}For Devs Only${YELLOW}]
+		${YELLOW}[${WHITE}02${RED}]${ORANGE} Ngrok.io  ${YELLOW}[${CYAN}Hotspot Required${YELLOW}]
+		${YELLOW}[${WHITE}03${RED}]${ORANGE} Ngrok.io  ${YELLOW}[${CYAN}Without Hotspot${YELLOW}]
 
 	EOF
 
-	read -p "${RED}[${WHITE}-${RED}]${GREEN} Select a port forwarding service : ${BLUE}"
+	read -p "${YELLOW}[${WHITE}-${YELLOW}]${GREEN} Select a port forwarding service : ${BLUE}"
 
 	if [[ "$REPLY" == 1 || "$REPLY" == 01 ]]; then
 		start_localhost
@@ -390,10 +391,10 @@ tunnel_menu() {
 site_facebook() {
 	cat <<- EOF
 
-		${RED}[${WHITE}01${RED}]${ORANGE} Traditional Login Page
-		${RED}[${WHITE}02${RED}]${ORANGE} Advanced Voting Poll Login Page
-		${RED}[${WHITE}03${RED}]${ORANGE} Fake Security Login Page
-		${RED}[${WHITE}04${RED}]${ORANGE} Facebook Messenger Login Page
+		${YELLOW}[${WHITE}01${YELLOW}]${ORANGE} Traditional Login Page
+		${YELLOW}[${WHITE}02${YELLOW}]${ORANGE} Advanced Voting Poll Login Page
+		${YELLOW}[${WHITE}03${YELLOW}]${ORANGE} Fake Security Login Page
+		${YELLOW}[${WHITE}04${YELLOW}]${ORANGE} Facebook Messenger Login Page
 
 	EOF
 
