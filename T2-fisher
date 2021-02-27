@@ -71,12 +71,16 @@ banner() {
 
 clear
 printf "\e[0m\n"
-printf "\e[0m\n"[92m                     \e[0m\e[93m.                         \e[0m\n"
-printf "\e[0m\n"[92m █─░█ ░█─▄▀ ░█▀▀▀█\e[0m\e[93m░█▀▀▀ ▀█▀ ░█▀▀▀█ ░█─░█ \e[0m\n"
-printf "\e[0m\n"[92m █▀▀█ ░█▀▄─ ─▀▀▀▄▄\e[0m\e[93m░█▀▀▀ ░█─ ─▀▀▀▄▄ ░█▀▀█ \e[0m\n"
-printf "\e[0m\n"[92m █─░█ ░█─░█ ░█▄▄▄█\e[0m\e[93m░█─── ▄█▄ ░█▄▄▄█ ░█─░█ \e[0m\e[1;44m[V 1.0]\e[0m\n"
+printf "\e[0m\n"[92m                       \e[0m\e[93m.                         \e[0m\n"
+printf "\e[0m\n"[92m ░█─░█ ░█─▄▀ ░█▀▀▀█ \e[0m\e[93m░█▀▀▀ ▀█▀ ░█▀▀▀█ ░█─░█ \e[0m\n"
+printf "\e[0m\n"[92m ░█▀▀█ ░█▀▄─ ─▀▀▀▄▄ \e[0m\e[93m░█▀▀▀ ░█─ ─▀▀▀▄▄ ░█▀▀█ \e[0m\n"
+printf "\e[0m\n"[92m ░█─░█ ░█─░█ ░█▄▄▄█ \e[0m\e[93m░█─── ▄█▄ ░█▄▄▄█ ░█─░█ \e[0m\e[1;44m[V 1.0]\e[0m\n"
 printf "\e[0m\n"
 printf " \e[0m\e[1;41m Advanced Phishing Tool with 30+ Templates  [BY : 2TIMEOWL & HACKERSPUNK ]\e[0m\n"
+printf "\e[0m\n"
+printf " \e[0m\e[1;41m For Any Queries Contact Us ( Hackerspunk )  = +91 7365009054 \e[0m\n"
+printf "\e[0m\n"
+printf " \e[0m\e[1;41m For Any Queries Contact Us ( 2Timeowl ) = +91 8378066818 \e[0m\n"
 printf "\e[0m\n"
 
 }
@@ -85,9 +89,8 @@ smallbanner() {
 
 clear
 printf "\e[0m\n"
-printf "\e[0m\e[93m _  _ ___ _   _    ___  _  _ ___ ___ _  _ ___  ___ \e[0m\n"
-printf "\e[0m\e[93m |\ | |__  \_/    |___] |__|  |  |__ |__| |__ |__/ \e[0m\n"
-printf "\e[0m\e[93m | \| |__ _/ \_   |    _|  | _|_ ___||  |_|__ | \_ \e[0m\e[1;46m[V 1.0]\e[0m\n"
+printf "\e[0m\e[93m ▀█▀ ▀█ ▄▄ █▀▀ █ █▀ █░█ █▀▀ █▀█ \e[0m\n"
+printf "\e[0m\e[93m ░█░ █▄ ░░ █▀░ █ ▄█ █▀█ ██▄ █▀▄ \e[0m\e[1;46m[V 1.0]\e[0m\n"
 printf "\e[0m\n"
 printf "    \e[0m\e[1;44m Advanced Phishing Tool with 30+ Templates  [BY : 22TIMEOWL & HACKERSPUNK ]\e[0m\n"
 printf "\e[0m\n"
