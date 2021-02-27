@@ -71,8 +71,9 @@ banner() {
 
 clear
 printf "\e[0m\n"
-printf "\e[0m\e[93m ▀█▀ ▀█ ▄▄ █▀▀ █ █▀ █░█ █▀▀ █▀█ \e[0m\n"
-printf "\e[0m\e[93m ░█░ █▄ ░░ █▀░ █ ▄█ █▀█ ██▄ █▀▄ \e[0m\e[1;46m[V 1.0]\e[0m\n"
+printf "\e[0m\e[93m █░▒█ ▒█░▄▀ ▒█▀▀▀█ ░░ ▒█▀▀▀ ▀█▀ ▒█▀▀▀█ ▒█░▒█ \e[0m\n"
+printf "\e[0m\e[93m █▀▀█ ▒█▀▄░ ░▀▀▀▄▄ ▀▀ ▒█▀▀▀ ▒█░ ░▀▀▀▄▄ ▒█▀▀█ \e[0m\n"
+printf "\e[0m\e[93m █░▒█ ▒█░▒█ ▒█▄▄▄█ ░░ ▒█░░░ ▄█▄ ▒█▄▄▄█ ▒█░▒█ \e[0m\e[1;46m[V 1.0]\e[0m\n"
 printf "\e[0m\n"
 printf " \e[0m\e[1;41m Advanced Phishing Tool with 30+ Templates  [BY : HTR-TECH ]\e[0m\n"
 printf "\e[0m\n"
