@@ -105,6 +105,6 @@ printf "\e[0m\n"
 printf "\e[0m\e[1;91m [\e[1;97m~\e[1;91m]\e[1;93m Installation Completed !! \e[0m\n"
 printf "\e[0m\n"
 sleep 2
-printf "\e[0m\e[1;91m [\e[1;97m~\e[1;91m]\e[1;93m Type \e[1;96mbash nexphisher \e[1;93mto run NEXPHISHER !! \e[0m\n"
+printf "\e[0m\e[1;91m [\e[1;97m~\e[1;91m]\e[1;93m Type \e[1;96mbash T2-fisher \e[1;93mto run T2-FISHER !! \e[0m\n"
 printf "\e[0m\n"
 printf "\e[0m\n"
