@@ -73,9 +73,12 @@ banner() {
 
 clear
 printf "\e[0m\n"
-printf "\e[0m\e[93m ▒█░▒█ ▒█░▄▀ ▒█▀▀▀█ ░░ ▒█▀▀▀ ▀█▀ ▒█▀▀▀█ ▒█░▒█ \e[0m\n"
-printf "\e[0m\e[93m ▒█▀▀█ ▒█▀▄░ ░▀▀▀▄▄ ▀▀ ▒█▀▀▀ ▒█░ ░▀▀▀▄▄ ▒█▀▀█ \e[0m\n"
-printf "\e[0m\e[93m ▒█░▒█ ▒█░▒█ ▒█▄▄▄█ ░░ ▒█░░░ ▄█▄ ▒█▄▄▄█ ▒█░▒█ \e[0m\e[1;46m[V 1.0]\e[0m\n"
+printf "\e[0m\e[93m ___________________          ___________.__       .__                  \e[0m\n" 
+printf "\e[0m\e[93m \__    ___/\_____  \         \_   _____/|__| _____|  |__   ___________ \e[0m\n"
+printf "\e[0m\e[93m  |    |    /  ____/   ______ |    __)  |  |/  ___/  |  \_/ __ \_  __ \ \e[0m\n"
+printf "\e[0m\e[93m  |    |   /       \  /_____/ |     \   |  |\___ \|   Y  \  ___/|  | \/ \e[0m\n"
+printf "\e[0m\e[93m  |____|   \_______ \         \___  /   |__/____  >___|  /\___  >__|    \e[0m\n"
+printf "\e[0m\e[93m                   \/             \/            \/     \/     \/ \e[0m\e[1;44m[V 1.0]\e[0m\n"
 printf "\e[0m\n"
 printf " \e[0m\e[1;41m Most Advanced Phishing Tool of 2021 with 20+ Templates  [BY : 2TIMEOWL & HACKERSPUNK ]\e[0m\n"
 printf "\e[0m\n"
