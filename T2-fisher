@@ -79,9 +79,9 @@ printf "\e[0m\e[93m ▒█░▒█ ▒█░▒█ ▒█▄▄▄█ ░░ �
 printf "\e[0m\n"
 printf " \e[0m\e[1;41m Most Advanced Phishing Tool of 2021 with 20+ Templates  [BY : 2TIMEOWL & HACKERSPUNK ]\e[0m\n"
 printf "\e[0m\n"
-printf " \e[1;31m[\e[0m\e[1;77m03\e[0m\e[1;31m]\e[0m\e[1;93m For Any Queries Contact Us [ HACKERSPUNK  = +91 7365009054]\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m01\e[0m\e[1;31m]\e[0m\e[1;93m For Any Queries Contact Us [ HACKERSPUNK  = +91 7365009054]\e[0m\n"
 printf "\e[0m\n"
-printf " \e[1;31m[\e[0m\e[1;77m03\e[0m\e[1;31m]\e[0m\e[1;93m For Any Queries Contact Us [ 2TIMEOWL = +91 9960524818 ]\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m02\e[0m\e[1;31m]\e[0m\e[1;93m For Any Queries Contact Us [ 2TIMEOWL = +91 9960524818 ]\e[0m\n"
 printf "\e[0m\n"
 
 }
