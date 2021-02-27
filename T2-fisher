@@ -80,9 +80,9 @@ printf "\e[0m\e[93m                   \/             \/            \/     \/    
 printf "\e[0m\n"
 printf " \e[0m\e[1;41m Most Advanced Phishing Tool of 2021 with 20+ Templates  [BY : 2TIMEOWL & HACKERSPUNK ]\e[0m\n"
 printf "\e[0m\n"
-printf " \e[1;31m[\e[0m\e[1;77m01\e[0m\e[1;31m]\e[0m\e[1;93m For Any Queries Contact Us [ HACKERSPUNK  = +91 7365009054]\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m01\e[0m\e[1;31m]\e[0m\e[1;93m For Any Queries Contact Us [ 2TIMEOWL  = +91 9960524818 ]\e[0m\n"
 printf "\e[0m\n"
-printf " \e[1;31m[\e[0m\e[1;77m02\e[0m\e[1;31m]\e[0m\e[1;93m For Any Queries Contact Us [ 2TIMEOWL = +91 9960524818 ]\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m02\e[0m\e[1;31m]\e[0m\e[1;93m For Any Queries Contact Us [ HACKERSPUNK = +91 7365009054 ]\e[0m\n"
 printf "\e[0m\n"
 
 }
@@ -97,9 +97,9 @@ printf "\e[0m\e[93m ░█░ █▄ ░░ █▀░ █ ▄█ █
 printf "\e[0m\n"
 printf "    \e[0m\e[1;44m Most Advanced Phishing Tool of 2021 with 20+ Templates\e[0m\n"
 printf "\e[0m\n"
-printf "\e[0m\e[91m    [\e[0m\e[96m BY \e[0m\e[91m: \e[0m\e[96mhttps://github.com/Punker-Bhai \e[0m\e[91m] \e[0m\n"
-printf "\e[0m\n"
 printf "\e[0m\e[91m    [\e[0m\e[96m BY \e[0m\e[91m: \e[0m\e[96mhttps://github.com/2Timeowl \e[0m\e[91m] \e[0m\n"
+printf "\e[0m\n"
+printf "\e[0m\e[91m    [\e[0m\e[96m BY \e[0m\e[91m: \e[0m\e[96mhttps://github.com/Punker-Bhai \e[0m\e[91m] \e[0m\n"
 printf "\e[0m\n"
 
 }
@@ -211,9 +211,9 @@ elif [[ $menu_option == 99 ]]; then
 about
 elif [[ $menu_option == 0 || $menu_option == 00 ]]; then
 printf "\e[0m\n"
-printf " \e[0m\e[1;42m Thanks for Using This Tool !!\e[0m  \e[1;44m Visit https://github.com/Punker-Bhai for more\e[0m\n"
-printf "\e[0m\n"
 printf " \e[0m\e[1;42m Thanks for Using This Tool !!\e[0m  \e[1;44m Visit https://github.com/2Timeowl for more\e[0m\n"
+printf "\e[0m\n"
+printf " \e[0m\e[1;42m Thanks for Using This Tool !!\e[0m  \e[1;44m Visit https://github.com/Punker-Bhai for more\e[0m\n"
 printf "\e[0m\n"
 exit 1
 
@@ -346,7 +346,7 @@ printf "\e[0m\e[93m ░█░ █▄ ░░ █▀░ █ ▄█ █
 printf "\e[0m\n"
 printf "    \e[0m\e[1;44m Most Advanced Phishing Tool of 2021 with 20+ Templates\e[0m\n"
 printf "\e[0m\n"
-printf "\e[0m\e[92m  AUTHOR \e[0m\e[91m     :\e[0m\e[93m HACKERSPUNK & 2TIMEOWL \e[0m\e[91m[\e[0m\e[93m IRI70 \e[0m\e[91m]\e[0m\n"
+printf "\e[0m\e[92m  AUTHOR \e[0m\e[91m     :\e[0m\e[93m 2TIMEOWL & HACKERSPUNK \e[0m\e[91m[\e[0m\e[93m IRI70 \e[0m\e[91m]\e[0m\n"
 printf "\e[0m\n"
 printf "\e[0m\e[92m  GITHUB \e[0m\e[91m     : \e[0m\e[96mhttps://github.com/2Timeowl\e[0m\n"
 printf "\e[0m\n"
@@ -369,9 +369,9 @@ menu
 elif [[ $about_option == 99 ]]; then
 sleep 1
 printf "\e[0m\n"
-printf " \e[0m\e[1;42m Thanks for Using This Tool !!\e[0m  \e[1;44m Visit https://github.com/Punker-Bhai for more\e[0m\n"
-printf "\e[0m\n"
 printf " \e[0m\e[1;42m Thanks for Using This Tool !!\e[0m  \e[1;44m Visit https://github.com/2Timeowl for more\e[0m\n"
+printf "\e[0m\n"
+printf " \e[0m\e[1;42m Thanks for Using This Tool !!\e[0m  \e[1;44m Visit https://github.com/Punker-bhai for more\e[0m\n"
 printf "\e[0m\n"
 exit 1
 
