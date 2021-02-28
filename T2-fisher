@@ -401,11 +401,11 @@ cp -f .Modules/ip.php .htr/www/
 
 def_tunnel_menu="2"
 smallbanner
-printf "\e[0m\e[91m [\e[0m01\e[0m\e[91m]\e[0m\e[93m LocalHost\e[0m\n"
-printf "\e[0m\e[91m [\e[0m02\e[0m\e[91m]\e[0m\e[93m Ngrok\e[0m\n"
-printf "\e[0m\e[91m [\e[0m03\e[0m\e[91m]\e[0m\e[93m Serveo \e[0m\e[91m[\e[0m\e[93mCurrently Down\e[0m\e[91m]\e[0m\n"
-printf "\e[0m\e[91m [\e[0m04\e[0m\e[91m]\e[0m\e[93m LocalXpose\e[0m\n"
-printf "\e[0m\e[91m [\e[0m05\e[0m\e[91m]\e[0m\e[93m LocalHostRun\e[0m\n"
+printf "\e[0m\e[91m [\e[0m01\e[0m\e[91m]\e[0m\e[96m LocalHost\e[0m\n"
+printf "\e[0m\e[91m [\e[0m02\e[0m\e[91m]\e[0m\e[96m Ngrok\e[0m\n"
+printf "\e[0m\e[91m [\e[0m03\e[0m\e[91m]\e[0m\e[96m Serveo \e[0m\e[91m[\e[0m\e[93mCurrently Down\e[0m\e[91m]\e[0m\n"
+printf "\e[0m\e[91m [\e[0m04\e[0m\e[91m]\e[0m\e[96m LocalXpose\e[0m\n"
+printf "\e[0m\e[91m [\e[0m05\e[0m\e[91m]\e[0m\e[96m LocalHostRun\e[0m\n"
 printf "\e[0m\n"
 read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Select a Port Forwarding option: \e[0m\e[1;96m\en' tunnel_menu
 tunnel_menu="${tunnel_menu:-${def_tunnel_menu}}"
@@ -459,7 +459,7 @@ ngrok_link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "https://[0-
 
 smallbanner
 printf "\e[0m\n"
-printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;96m Send the link to victim :\e[0m\e[0m\e[96m %s \n" $ngrok_link
+printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Send the link to victim :\e[0m\e[0m\e[96m %s \n" $ngrok_link
 
 datafound
 }
@@ -506,7 +506,7 @@ fi
 serveo_link=$(grep -o '.\{0,0\}http.\{0,100\}' .nexlink)
 smallbanner
 printf "\e[0m\n"
-printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;96m Send the link to victim :\e[0m\e[0m\e[96m %s \n" $serveo_link
+printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Send the link to victim :\e[0m\e[0m\e[96m %s \n" $serveo_link
 
 datafound
 }
