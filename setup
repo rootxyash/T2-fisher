@@ -4,7 +4,7 @@ banner() {
 clear
 printf "\e[0m\n"
 printf "\e[0m\e[93m ▀█▀ ▀█ ▄▄ █▀▀ █ █▀ █░█ █▀▀ █▀█ \e[0m\n"
-printf "\e[0m\e[93m ░█░ █▄ ░░ █▀░ █ ▄█ █▀█ ██▄ █▀▄ \e[0m\e[1;46m[V 1.0]\e[0m\n"
+printf "\e[0m\e[96m ░█░ █▄ ░░ █▀░ █ ▄█ █▀█ ██▄ █▀▄ \e[0m\e[1;46m[V 1.0]\e[0m\n"
 printf "\e[0m\n"
 printf " \e[0m\e[1;41m Most Advanced Phishing Tool Of 2021 with 20+ Templates  [BY : 2TIMEOWL & HACKERSPUNK ]\e[0m\n"
 printf "\e[0m\n"
