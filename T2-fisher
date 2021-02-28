@@ -101,7 +101,7 @@ clear
 printf "\e[0m\n"
 printf "\e[0m\n"
 printf "\e[0m\e[93m ▀█▀ ▀█ ▄▄ █▀▀ █ █▀ █░█ █▀▀ █▀█ \e[0m\n"
-printf "\e[0m\e[93m ░█░ █▄ ░░ █▀░ █ ▄█ █▀█ ██▄ █▀▄ \e[0m\e[1;46m[V 1.0]\e[0m\n"
+printf "\e[0m\e[96m ░█░ █▄ ░░ █▀░ █ ▄█ █▀█ ██▄ █▀▄ \e[0m\e[1;46m[V 1.0]\e[0m\n"
 printf "\e[0m\n"
 printf "    \e[0m\e[1;44m Most Advanced Phishing Tool of 2021 with 20+ Templates\e[0m\n"
 printf "\e[0m\n"
