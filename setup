@@ -11,7 +11,7 @@ printf "\e[0m\n"
 }
 banner
 printf "\e[0m\n"
-printf "\e[0m\e[1;91m [\e[1;97m~\e[1;91m]\e[1;97m           |------------[ INSTALLATION STARTED ]-------------|\e[0m\n"
+printf "\e[0m\e[1;97m            |------------[ INSTALLATION STARTED ]-------------|\e[0m\n"
 printf "\e[0m\n"
 apt-get update
 apt-get upgrade -y
@@ -22,7 +22,7 @@ apt-get -y install unzip
 apt-get -y install openssh-server
 clear
 printf "\e[0m\n"
-printf "\e[0m\e[1;97m                |------------[ INSTALLING DEPENDENCIES ]-------------|\e[0m\n"
+printf "\e[0m\e[1;97m             |------------[ INSTALLING DEPENDENCIES ]-------------|\e[0m\n"
 if [[ -d .htr ]]; then
 printf ""
 else
