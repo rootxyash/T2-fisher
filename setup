@@ -66,35 +66,6 @@ exit 1
 fi
 fi
 fi
-if [[ -e .htr/loclx ]]; then
-printf ""
-else
-archa=$(uname -a | grep -o 'arm' | head -n1)
-arch2a=$(uname -a | grep -o 'Android' | head -n1)
-if [[ $archa == *'arm'* ]] || [[ $arch2a == *'Android'* ]] ; then
-curl -LO https://lxpdownloads.sgp1.digitaloceanspaces.com/cli/loclx-linux-arm.zip > /dev/null 2>&1
-if [[ -e loclx-linux-arm.zip ]]; then
-unzip loclx-linux-arm.zip > /dev/null 2>&1
-mv loclx .htr
-rm -rf loclx-linux-arm.zip
-chmod +x .htr/loclx
-else
-printf "\n \e[1;31m[\e[0m\e[1;77m!\e[0m\e[1;31m]\e[0m\e[1;93m Error \e[1;31m[\e[0m\e[1;77m!\e[0m\e[1;31m]\e[0m\e[1;96m Install LocalXpose Manually.\e[0m\n"
-exit 1
-fi
-else
-curl -LO https://lxpdownloads.sgp1.digitaloceanspaces.com/cli/loclx-linux-386.zip > /dev/null 2>&1 
-if [[ -e loclx-linux-386.zip ]]; then
-unzip loclx-linux-386.zip > /dev/null 2>&1
-mv loclx .htr
-rm -rf loclx-linux-386.zip
-chmod +x .htr/loclx
-else
-printf "\n \e[1;31m[\e[0m\e[1;77m!\e[0m\e[1;31m]\e[0m\e[1;93m Error \e[1;31m[\e[0m\e[1;77m!\e[0m\e[1;31m]\e[0m\e[1;96m Install LocalXpose Manually.\e[0m\n"
-exit 1
-fi
-fi
-fi
 if [[ -d ~/.ssh ]]; then
 printf ""
 else
