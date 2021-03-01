@@ -4,14 +4,14 @@ banner() {
 clear
 printf "\e[0m\n"
 printf "\e[0m\e[93m ▀█▀ ▀█ ▄▄ █▀▀ █ █▀ █░█ █▀▀ █▀█ \e[0m\n"
-printf "\e[0m\e[93m ░█░ █▄ ░░ █▀░ █ ▄█ █▀█ ██▄ █▀▄ \e[0m\e[1;46m[V 1.0]\e[0m\n"
+printf "\e[0m\e[96m ░█░ █▄ ░░ █▀░ █ ▄█ █▀█ ██▄ █▀▄ \e[0m\e[1;46m[V 1.0]\e[0m\n"
 printf "\e[0m\n"
 printf " \e[0m\e[1;41m Most Advanced Phishing Tool Of 2021 with 20+ Templates  [BY : 2TIMEOWL & HACKERSPUNK ]\e[0m\n"
 printf "\e[0m\n"
 }
 banner
 printf "\e[0m\n"
-printf "\e[0m\e[1;91m [\e[1;97m~\e[1;91m]\e[1;93m Installing Bundles ....\e[0m\n"
+printf "\e[0m\e[1;97m                     |------------[ INSTALLING PACKAGES ]-------------|\e[0m\n"
 printf "\e[0m\n"
 apt-get update
 apt-get upgrade -y
@@ -22,7 +22,7 @@ apt-get -y install unzip
 apt-get -y install openssh-server
 clear
 printf "\e[0m\n"
-printf "\e[0m\e[1;91m [\e[1;97m~\e[1;91m]\e[1;93m Setting Up Dependencies ....\e[0m\n"
+printf "\e[0m\e[1;97m               |------------[ INSTALLATION DEPENDENCIES ]-------------|\e[0m\n"
 if [[ -d .htr ]]; then
 printf ""
 else
