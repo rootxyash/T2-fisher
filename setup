@@ -13,6 +13,7 @@ banner
 printf "\e[0m\n"
 printf "\e[0m\e[1;97m            |------------[ INSTALLATION STARTED ]------------|\e[0m\n"
 printf "\e[0m\n"
+sleep 5.0
 apt-get update
 apt-get upgrade -y
 apt-get -y install ssh
