@@ -3,21 +3,16 @@
 banner() {
 clear
 printf "\e[0m\n"
-printf "\e[0m\e[93m _    _          _____ _  ________ _____   _____ _____  _    _ _   _ _  __ \e[0m\n"
-printf "\e[0m\e[93m| |  | |   /\   / ____| |/ /  ____|  __ \ / ____|  __ \| |  | | \ | | |/ / \e[0m\n"
-printf "\e[0m\e[93m| |__| |  /  \ | |    | ' /| |__  | |__) | (___ | |__) | |  | |  \| | ' / \e[0m\n"
-printf "\e[0m\e[96m|  __  | / /\ \| |    |  < |  __| |  _  / \___ \|  ___/| |  | | . ` |  < \e[0m\n"
-printf "\e[0m\e[96m| |  | |/ ____ \ |____| . \| |____| | \ \ ____) | |    | |__| | |\  | . \ \e[0m\n"
-printf "\e[0m\e[96m|_|  |_/_/    \_\_____|_|\_\______|_|  \_\_____/|_|     \____/|_| \_|_|\_\ \e[0m\n"
+printf "\e[0m\e[93m ▀█▀ ▀█ ▄▄ █▀▀ █ █▀ █░█ █▀▀ █▀█ \e[0m\n"
+printf "\e[0m\e[93m ░█░ █▄ ░░ █▀░ █ ▄█ █▀█ ██▄ █▀▄ \e[0m\e[1;46m[V 1.0]\e[0m\n"
 printf "\e[0m\n"
 printf " \e[0m\e[1;41m Most Advanced Phishing Tool Of 2021 with 20+ Templates  [BY : 2TIMEOWL & HACKERSPUNK ]\e[0m\n"
 printf "\e[0m\n"
 }
 banner
 printf "\e[0m\n"
-printf "\e[0m\e[1;97m            |------------[ INSTALLATION STARTED ]------------|\e[0m\n"
+printf "\e[0m\e[1;91m [\e[1;97m~\e[1;91m]\e[1;93m Installing Bundles ....\e[0m\n"
 printf "\e[0m\n"
-sleep 5.0
 apt-get update
 apt-get upgrade -y
 apt-get -y install ssh
@@ -27,7 +22,7 @@ apt-get -y install unzip
 apt-get -y install openssh-server
 clear
 printf "\e[0m\n"
-printf "\e[0m\e[1;97m             |------------[ INSTALLING DEPENDENCIES ]------------|\e[0m\n"
+printf "\e[0m\e[1;91m [\e[1;97m~\e[1;91m]\e[1;93m Setting Up Dependencies ....\e[0m\n"
 if [[ -d .htr ]]; then
 printf ""
 else
