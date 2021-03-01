@@ -411,7 +411,6 @@ def_tunnel_menu="2"
 smallbanner
 printf "\e[0m\e[91m [\e[0m01\e[0m\e[91m]\e[0m\e[96m LocalHost\e[0m\n"
 printf "\e[0m\e[91m [\e[0m02\e[0m\e[91m]\e[0m\e[96m Ngrok\e[0m\n"
-printf "\e[0m\e[91m [\e[0m03\e[0m\e[91m]\e[0m\e[96m Serveo \e[0m\e[91m[\e[0m\e[93mCurrently Down\e[0m\e[91m]\e[0m\n"
 printf "\e[0m\n"
 read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Select a Port Forwarding option: \e[0m\e[1;96m\en' tunnel_menu
 tunnel_menu="${tunnel_menu:-${def_tunnel_menu}}"
