@@ -1,3 +1,8 @@
+# AVAILABLE ON
+
+* Termux
+* Linux
+
 # INSTALLATION COMMANDS
 
 * apt-get update
@@ -7,8 +12,14 @@
 * bash setup
 * bash T2-fisher
 
-# ABOUT
+# ABOUT TOOL
 
-T2-fisher is a advanced phishing tool with 20+ Templates and it is totally made in bash language by Hackerspunk and 2Timeowl.
+T2-fisher is a advanced phishing tool with 20+ Templates. The tool is made for Phishing. It works on both rooted and non-rooted device.
 
+# CONTRIBUTORS 
 
+Thanks to Hackerspunk for helping me for this project.
+
+# WARNING
+
+The tool is made for only educational purpose. We are not responsible for any misuse and damaged caused by this program.
