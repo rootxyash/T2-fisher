@@ -8,9 +8,6 @@
 <p align="center">
 <a href="https://bit.ly/3jPqXEB"><img src="PicsArt_03-09-11.12.02.png"></a>
 </p>
-<p align="center">
-              T2-FISHER
-</p>
 
 # ABOUT TOOL
 
