@@ -6,10 +6,7 @@
 <a href="https://instagram.com/2timeowl?igshid=1p17hruv5cg68"><img title="2Timeowl" src="https://img.shields.io/badge/2TIME-OWL-green"></a>
 </p>
 <p align="center">
-          MODERN PHISHING TOOL 
-</p>
-<p align="center">
-      T2-FISHER
+              +T2-FISHER
 </p>
 
 # ABOUT TOOL
