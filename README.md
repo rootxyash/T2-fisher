@@ -29,7 +29,7 @@ T2-fisher is a advanced phishing tool with 20+ Templates. The tool is made for P
 
 # CONTRIBUTORS 
 
-Thanks to Hackerspunk for helping me for this project.
+Special Thanks to Hackerspunk for helping me in this project.
 
 # WARNING 
 
