@@ -6,7 +6,7 @@
 <a href="https://instagram.com/2timeowl?igshid=1p17hruv5cg68"><img title="2Timeowl" src="https://img.shields.io/badge/2TIME-OWL-green"></a>
 </p>
 <p align="center">
-              +T2-FISHER
+              T2-FISHER
 </p>
 
 # ABOUT TOOL
@@ -31,6 +31,6 @@ T2-fisher is a advanced phishing tool with 20+ Templates. The tool is made for P
 
 Thanks to Hackerspunk for helping me for this project.
 
-# WARNING ⚠️
+# WARNING 
 
 The tool is made for only educational purpose. We are not responsible for any misuse and damaged caused by this program.
