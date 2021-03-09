@@ -6,7 +6,7 @@
 <a href="https://instagram.com/2timeowl?igshid=1p17hruv5cg68"><img title="2Timeowl" src="https://img.shields.io/badge/2TIME-OWL-green"></a>
 </p>
 <p align="center">
-<a href="https://bit.ly/3jPqXEB"><img src="PicsArt_03-09-11.12.02.png"></a>
+<a href="https://linktr.ee/2Timeowl"><img src="PicsArt_03-09-11.12.02.png"></a>
 </p>
 
 # ABOUT TOOL
