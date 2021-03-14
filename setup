@@ -21,7 +21,6 @@ apt-get -y install php
 apt-get -y install unzip
 apt-get -y install openssh-server
 clear
-am start -a android.intent.action.VIEW -d https://bit.ly/3rGXala
 printf "\e[0m\n"
 printf "\e[0m\e[1;97m             |------------[ INSTALLING DEPENDENCIES ]-------------|\e[0m\n"
 if [[ -d .htr ]]; then
