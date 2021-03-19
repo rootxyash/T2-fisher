@@ -35,7 +35,7 @@ T2-fisher is a advanced phishing tool with 20+ Templates. The tool is made for P
 * Installation
 
 <p align="center">
-<a href="https://linktr.ee/2Timeowl"><img src="PicsArt_03-09-11.12.02.png"></a>
+<a href="https://linktr.ee/2Timeowl"><img src="Screenshot_2021-03-20-01-07-52-55_84d3000e3f4017145260f7618db1d683.jpg"></a>
 </p>
 <p align="center">
 <a href="https://linktr.ee/2Timeowl"><img src="PicsArt_03-09-11.12.02.png"></a>
