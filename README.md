@@ -30,6 +30,20 @@ T2-fisher is a advanced phishing tool with 20+ Templates. The tool is made for P
 * bash setup
 * bash T2-fisher
 
+# SCREENSHOTS
+
+* Installation
+
+<p align="center">
+<a href="https://linktr.ee/2Timeowl"><img src="PicsArt_03-09-11.12.02.png"></a>
+</p>
+<p align="center">
+<a href="https://linktr.ee/2Timeowl"><img src="PicsArt_03-09-11.12.02.png"></a>
+</p>
+<p align="center">
+<a href="https://linktr.ee/2Timeowl"><img src="PicsArt_03-09-11.12.02.png"></a>
+</p>
+
 # CONTRIBUTORS 
 
 Special Thanks to Hackerspunk for helping me in this project.
