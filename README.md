@@ -3,7 +3,7 @@
 </p>
 </p>
 <p align="center">
-<a href="https://instagram.com/2timeowl?igshid=1p17hruv5cg68"><img title="2Timeowl" src="https://img.shields.io/badge/2TIME-OWL-green"></a>
+<a href="https://instagram.com/Technocyber.sh?igshid=1p17hruv5cg68"><img title="2Timeowl" src="https://img.shields.io/badge/TECHNO-CYBER-green"></a>
 </p>
 <p align="center">
 <a href="https://linktr.ee/2Timeowl"><img src="PicsArt_03-09-11.12.02.png"></a>
@@ -23,7 +23,7 @@ T2-fisher is a advanced phishing tool with 20+ Templates. The tool is made for P
 * apt-get update
 * apt-get upgrade
 * pkg install git -y
-* git clone https://github.com/2Timeowl/T2-fisher
+* git clone https://github.com/Technocyber/T2-fisher
 * ls
 * cd T2-fisher
 * ls
