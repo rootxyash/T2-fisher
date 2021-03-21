@@ -4,8 +4,8 @@
 <a href="https://linktr.ee/2Timeowl"><img src="PicsArt_03-09-11.12.02.png"></a>
 </p>
 <p align="center">
-<a href="https://linktr.ee/2Timeowl"><img title="YouTube" src="https://img.shields.io/badge/Techno-Cyber-brightgreen?style=for-the-badge&logo=github"></a>
-<a href="https://linktr.ee/2Timeowl"><img title="YouTube" src="https://img.shields.io/badge/Instagram-Technocyber.sh-yellow?style=for-the-badge&logo=Youtube"></a>
+<a href="https://gitHub.com/Technocyber"><img title="YouTube" src="https://img.shields.io/badge/Techno-Cyber-brightgreen?style=for-the-badge&logo=github"></a>
+<a href="https://bit.ly/2OT7U1G"><img title="YouTube" src="https://img.shields.io/badge/Instagram-Technocyber.sh-yellow?style=for-the-badge&logo=Youtube"></a>
 </p>
 <p align="center">
 <a href="https://t.me/T4CHNOCYBER"><img title="Telegram" src="https://img.shields.io/badge/Telegram-black?style=for-the-badge&logo=Telegram"></a>
