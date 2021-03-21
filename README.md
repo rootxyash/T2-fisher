@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://rebrand.ly/githubprof"><img title="YouTube" src="https://img.shields.io/badge/Made In-India-brightgreen?style=for-the-badge&logo=github"></a>
+<a href="https://rebrand.ly/githubprof"><img title="YouTube" src="https://img.shields.io/badge/Made In-India-brightgreen?style=for-the-badge&logo="></a>
 </p>
 <a href="https://linktr.ee/2Timeowl"><img src="PicsArt_03-09-11.12.02.png"></a>
 </p>
