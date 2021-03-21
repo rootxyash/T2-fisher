@@ -1,16 +1,16 @@
 <p align="center">
-<a href="https://rebrand.ly/githubprof"><img title="YouTube" src="https://img.shields.io/badge/Made In-India-red?style=for-the-badge&logo="></a>
+<a href="https://bit.ly/2OT7U1G"><img title="YouTube" src="https://img.shields.io/badge/Made In-India-red?style=for-the-badge&logo="></a>
 </p>
 <a href="https://linktr.ee/2Timeowl"><img src="PicsArt_03-09-11.12.02.png"></a>
 </p>
 <p align="center">
-<a href="https://rebrand.ly/githubprof"><img title="YouTube" src="https://img.shields.io/badge/Techno-Cyber-brightgreen?style=for-the-badge&logo=github"></a>
-<a href="https://rebrand.ly/noobhackers"><img title="YouTube" src="https://img.shields.io/badge/Instagram-Technocyber.sh-yellow?style=for-the-badge&logo=Youtube"></a>
+<a href="https://linktr.ee/2Timeowl"><img title="YouTube" src="https://img.shields.io/badge/Techno-Cyber-brightgreen?style=for-the-badge&logo=github"></a>
+<a href="https://linktr.ee/2Timeowl"><img title="YouTube" src="https://img.shields.io/badge/Instagram-Technocyber.sh-yellow?style=for-the-badge&logo=Youtube"></a>
 </p>
 <p align="center">
-<a href="https://rebrand.ly/telegramchnl"><img title="Telegram" src="https://img.shields.io/badge/Telegram-black?style=for-the-badge&logo=Telegram"></a>
-<a href="https://rebrand.ly/hckrgroups"><img title="whatsapp" src="https://img.shields.io/badge/whatsapp-blue?style=for-the-badge&logo=whatsapp"></a>
-<a href="https://rebrand.ly/insgrm"><img title="Instagram" src="https://img.shields.io/badge/YouTube-purple?style=for-the-badge&logo=instagram"></a>
+<a href="https://t.me/T4CHNOCYBER"><img title="Telegram" src="https://img.shields.io/badge/Telegram-black?style=for-the-badge&logo=Telegram"></a>
+<a href="https://linktr.ee/2Timeowl"><img title="whatsapp" src="https://img.shields.io/badge/whatsapp-blue?style=for-the-badge&logo=whatsapp"></a>
+<a href="https://bit.ly/2OT7U1G"><img title="Instagram" src="https://img.shields.io/badge/YouTube-purple?style=for-the-badge&logo=instagram"></a>
 <p align="center">
 <p align="center">
 
