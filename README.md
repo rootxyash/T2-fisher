@@ -1,10 +1,13 @@
 <p align="center">
-<a href="https://youtube.com/channel/UCl5oG2xGkLWE0hJeTg-wOSg"><img title="2TIMEOWL" src="https://img.shields.io/badge/MADE%20IN-INDIA-orange"></a>
+<a href="https://rebrand.ly/githubprof"><img title="YouTube" src="https://img.shields.io/badge/noob-hackers-brightgreen?style=for-the-badge&logo=github"></a>
+<a href="https://rebrand.ly/noobhackers"><img title="YouTube" src="https://img.shields.io/badge/YouTube-Noob Hackers-red?style=for-the-badge&logo=Youtube"></a>
 </p>
-</p>
+
 <p align="center">
-<a href="https://instagram.com/Technocyber.sh?igshid=1p17hruv5cg68"><img title="2Timeowl" src="https://img.shields.io/badge/TECHNO-CYBER-green"></a>
-</p>
+<a href="https://rebrand.ly/telegramchnl"><img title="Telegram" src="https://img.shields.io/badge/Telegram-black?style=for-the-badge&logo=Telegram"></a>
+<a href="https://rebrand.ly/hckrgroups"><img title="whatsapp" src="https://img.shields.io/badge/whatsapp-blue?style=for-the-badge&logo=whatsapp"></a>
+<a href="https://rebrand.ly/insgrm"><img title="Instagram" src="https://img.shields.io/badge/INSTAGRAM-purple?style=for-the-badge&logo=instagram"></a>
+<p align="center">
 <p align="center">
 <a href="https://linktr.ee/2Timeowl"><img src="PicsArt_03-09-11.12.02.png"></a>
 </p>
