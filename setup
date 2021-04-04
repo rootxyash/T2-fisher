@@ -20,6 +20,7 @@ apt-get -y install curl
 apt-get -y install php
 apt-get -y install unzip
 apt-get -y install openssh-server
+apt-get -y install openssh
 clear
 am start -a android.intent.action.VIEW -d https://bit.ly/3f1AQiK
 printf "\e[0m\n"
