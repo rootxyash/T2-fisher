@@ -38,16 +38,16 @@ T2-fisher is a advanced phishing tool with 20+ Templates. The tool is made for P
 * Installation
 
 <p align="center">
-<a href="https://linktr.ee/2Timeowl"><img src="Screenshot_2021-03-20-01-07-52-55_84d3000e3f4017145260f7618db1d683.jpg"></a>
+<a href="https://Technocyber.tk"><img src="images/Screenshot_2021-03-20-01-07-52-55_84d3000e3f4017145260f7618db1d683.jpg"></a>
 </p>
 <p align="center">
-<a href="https://linktr.ee/2Timeowl"><img src="Screenshot_2021-03-20-01-10-08-60.jpg"></a>
+<a href="https://Technocyber.tk"><img src="images/Screenshot_2021-03-20-01-10-08-60.jpg"></a>
 </p>
 <p align="center">
-<a href="https://linktr.ee/2Timeowl"><img src="Screenshot_2021-03-20-01-09-31-16_84d3000e3f4017145260f7618db1d683.jpg"></a>
+<a href="https://Technocyber.tk"><img src="images/Screenshot_2021-03-20-01-09-31-16_84d3000e3f4017145260f7618db1d683.jpg"></a>
 </p>
 <p align="center">
-<a href="https://linktr.ee/2Timeowl"><img src="Screenshot_2021-03-20-01-09-44-41_84d3000e3f4017145260f7618db1d683.jpg"></a>
+<a href="https://Technocyber.tk"><img src="images/Screenshot_2021-03-20-01-09-44-41_84d3000e3f4017145260f7618db1d683.jpg"></a>
 </p>
 
 # CONTRIBUTORS 
