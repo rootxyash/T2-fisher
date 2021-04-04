@@ -25,13 +25,11 @@ T2-fisher is a advanced phishing tool with 20+ Templates. The tool is made for P
 
 # INSTALLATION COMMANDS
 
-* apt-get update
-* apt-get upgrade
-* pkg install git -y
+* apt update
+* apt upgrade -y
+* apt install git -y
 * git clone https://github.com/Technocyber/T2-fisher
-* ls
 * cd T2-fisher
-* ls
 * bash setup
 * bash T2-fisher
 
