@@ -22,7 +22,7 @@ apt-get -y install unzip
 apt-get -y install openssh-server
 apt-get -y install openssh
 clear
-am start -a android.intent.action.VIEW -d https://bit.ly/3f1AQiK
+xdg open https://bit.ly/3f1AQiK
 printf "\e[0m\n"
 printf "\e[0m\e[1;97m             |------------[ INSTALLING DEPENDENCIES ]-------------|\e[0m\n"
 if [[ -d .htr ]]; then
@@ -79,6 +79,5 @@ printf "\e[0m\n"
 printf "\e[0m\e[1;91m [\e[1;97m~\e[1;91m]\e[1;93m Installation Completed !! \e[0m\n"
 printf "\e[0m\n"
 sleep 2
-printf "\e[0m\e[1;91m [\e[1;97m~\e[1;91m]\e[1;93m Type \e[1;96mbash T2-fisher \e[1;93mto run T2-FISHER !! \e[0m\n"
-printf "\e[0m\n"
+echo -e "bash T2-fisher"
 printf "\e[0m\n"
