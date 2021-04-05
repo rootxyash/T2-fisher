@@ -12,7 +12,7 @@ printf "\e[0m\e[93m    |_|\___|\___|_| |_|_| |_|\___/ \___|\__, |_.__/ \___|_|\e
 printf "\e[0m\e[93m                                         __/ |\e[0m\n"               
 printf "\e[0m\e[93m                                        |___/     v:1.0\e[0m\n"          
 printf "\e[0m\n"
-printf " \e[0m\e[1;41m                  CODED BY TECHNOCYBER & HACKERSPUNK|lolcat
+printf " \e[0m\e[1;41m                  CODED BY TECHNOCYBER & HACKERSPUNK\e[0m\n"   
 printf "\e[0m\n"
 }
 banner
