@@ -3,8 +3,14 @@
 banner() {
 clear
 printf "\e[0m\n"
-printf "\e[0m\e[93m ▀█▀ ▀█ ▄▄ █▀▀ █ █▀ █░█ █▀▀ █▀█ \e[0m\n"
-printf "\e[0m\e[96m ░█░ █▄ ░░ █▀░ █ ▄█ █▀█ ██▄ █▀▄ \e[0m\e[1;46m[V 1.0]\e[0m\n"
+printf "\e[0m\e[93m  _______        _                            _\e[0m\n"             
+printf "\e[0m\e[93m |__   __|      | |                          | |\e[0m\n"             
+printf "\e[0m\e[93m    | | ___  ___| |__  _ __   ___   ___ _   _| |__   ___ _ __\e[0m\n" 
+printf "\e[0m\e[93m    | |/ _ \/ __| '_ \| '_ \ / _ \ / __| | | | '_ \ / _ \ '__|\e[0m\n"
+printf "\e[0m\e[93m    | |  __/ (__| | | | | | | (_) | (__| |_| | |_) |  __/ |\e[0m\n" 
+printf "\e[0m\e[93m    |_|\___|\___|_| |_|_| |_|\___/ \___|\__, |_.__/ \___|_|\e[0m\n"   
+printf "\e[0m\e[93m                                         __/ |\e[0m\n"               
+printf "\e[0m\e[93m                                        |___/     v:1.0\e[0m\n"          
 printf "\e[0m\n"
 printf " \e[0m\e[1;41m CODED BY TECHNOCYBER & HACKERSPUNK\e[0m\n"
 printf "\e[0m\n"
