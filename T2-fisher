@@ -11,7 +11,7 @@ user_interrupt(){
         printf "\e[0m\n"
         printf " \e[0m\e[1;42m Thanks for Using This Tool !!\e[0m  \e[1;44m Visit https://github.com/Technocyber for more\e[0m\n"
         printf "\e[0m\n"
-        printf " \e[1;37m                             [ YOURS IR170 ]\e[0m\n"
+        printf " \e[1;37m                             [ YOURS TECHNOCYBER & HACKERSPUNK ]\e[0m\n"
         printf "\e[0m\n"
         exit 1
 }
@@ -82,7 +82,9 @@ printf "\e[0m\e[92m   | |    /   _/        | (         | |         ) || (   ) ||
 printf "\e[0m\e[92m   | |   (   (__/\      | )      ___) (___/\____) || )   ( || (____/\| ) \ \__\e[0m\n"
 printf "\e[0m\e[92m   )_(   \_______/      |/       \_______/\_______)|/     \|(_______/|/   \__/\e[0m\n"
 printf "\e[0m\n"
-printf " \e[0m\e[1;47m  Most Advanced Phishing Tool of 2021 with 20+ Templates  [BY : TECHNOCYBER & HACKERSPUNK ]\e[0m\n"
+printf " \e[0m\e[1;47m         Most Advanced Phishing Tool of 2021 with 20+ Templates\e[0m\n"
+printf "\e[0m\n"
+printf " \e[0m\e[1;47m               [BY : TECHNOCYBER & HACKERSPUNK ]\e[0m\n"
 printf "\e[0m\n"
 printf " \e[1;37m                          :: DISCLAIMER ::\e[0m\n"
 printf "\e[0m\n"
