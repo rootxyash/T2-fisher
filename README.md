@@ -18,7 +18,7 @@
 
 T2-fisher is a advanced phishing tool with 20+ Templates. The tool is made for Phishing. It works on both Rooted and Non-Rooted device.
 
-# AVAILABLE ON
+# AVAILABLE FOR
 
 * Termux
 * Linux
