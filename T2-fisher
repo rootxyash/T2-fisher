@@ -234,10 +234,10 @@ fi
 
 facebook(){
 echo  "  _____________________________________________________________" | lolcat
-printf "                                                                \e[1;31m[\e[0m\e[1;77m01\e[0m\e[1;31m]\e[0m\e[0m\e[96m Traditional Login Page\e[0m\n"
-printf "                                                                \e[1;31m[\e[0m\e[1;77m02\e[0m\e[1;31m]\e[0m\e[0m\e[96m Advanced Voting Poll Login Page\e[0m\n"
-printf "                                                                \e[1;31m[\e[0m\e[1;77m03\e[0m\e[1;31m]\e[0m\e[0m\e[96m Fake Security Login Page\e[0m\n"
-printf "                                                                \e[1;31m[\e[0m\e[1;77m04\e[0m\e[1;31m]\e[0m\e[0m\e[96m Facebook Messenger Login Page\e[0m\n"
+printf "          \e[1;31m[\e[0m\e[1;77m01\e[0m\e[1;31m]\e[0m\e[0m\e[96m Traditional Login Page\e[0m\n"
+printf "          \e[1;31m[\e[0m\e[1;77m02\e[0m\e[1;31m]\e[0m\e[0m\e[96m Advanced Voting Poll Login Page\e[0m\n"
+printf "          \e[1;31m[\e[0m\e[1;77m03\e[0m\e[1;31m]\e[0m\e[0m\e[96m Fake Security Login Page\e[0m\n"
+printf "          \e[1;31m[\e[0m\e[1;77m04\e[0m\e[1;31m]\e[0m\e[0m\e[96m Facebook Messenger Login Page\e[0m\n"
 echo  "  _____________________________________________________________" | lolcat
 echo ""
 echo -e "╭─[TECHNOCYBER]" |lolcat
@@ -270,7 +270,8 @@ printf " \e[1;31m[\e[0m\e[1;77m01\e[0m\e[1;31m]\e[0m\e[0m\e[96m Traditional Logi
 printf " \e[1;31m[\e[0m\e[1;77m02\e[0m\e[1;31m]\e[0m\e[0m\e[96m Auto Followers Login Page\e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m03\e[0m\e[1;31m]\e[0m\e[0m\e[96m Blue Badge Verify Login Page\e[0m\n"
 printf "\e[0m\n"
-read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Select an option: \e[0m\e[1;96m\en' ig_option
+echo -e "╭─[TECHNOCYBER]" |lolcat
+read -p "   ╰─root@./2Timeowl=" ig_option
 
 
 if [[ $ig_option == 1 || $ig_option == 01 ]]; then
@@ -297,7 +298,8 @@ printf " \e[1;31m[\e[0m\e[1;77m01\e[0m\e[1;31m]\e[0m\e[0m\e[96m Gmail Old Login 
 printf " \e[1;31m[\e[0m\e[1;77m02\e[0m\e[1;31m]\e[0m\e[0m\e[96m Gmail New Login Page\e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m03\e[0m\e[1;31m]\e[0m\e[0m\e[96m Advanced Voting Poll\e[0m\n"
 printf "\e[0m\n"
-read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Select an option: \e[0m\e[1;96m\en' gmail_option
+echo -e "╭─[TECHNOCYBER]" |lolcat
+read -p "   ╰─root@./2Timeowl=" gmail_option
 
 
 if [[ $gmail_option == 1 || $gmail_option == 01 ]]; then
@@ -323,8 +325,8 @@ printf " \n"
 printf " \e[1;31m[\e[0m\e[1;77m01\e[0m\e[1;31m]\e[0m\e[0m\e[96m Traditional Login Page\e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m02\e[0m\e[1;31m]\e[0m\e[0m\e[96m Advanced Voting Poll Login Page\e[0m\n"
 printf "\e[0m\n"
-read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Select an option: \e[0m\e[1;96m\en' vk_option
-
+echo -e "╭─[TECHNOCYBER]" |lolcat
+read -p "   ╰─root@./2Timeowl=" vk_option
 
 if [[ $vk_option == 1 || $vk_option == 01 ]]; then
 website="vk"
@@ -369,7 +371,8 @@ printf "\e[0m\n"
 sleep 3
 printf " \e[0m\e[91m[\e[0m00\e[0m\e[91m]\e[0m\e[93m Home           \e[0m\e[91m[\e[0m99\e[0m\e[91m]\e[0m\e[93m Exit\e[0m\n"
 printf "\e[0m\n"
-read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Select an option: \e[0m\e[1;96m\en' about_option
+echo -e "╭─[TECHNOCYBER]" |lolcat
+read -p "   ╰─root@./2Timeowl=" about_option
 
 if [[ $about_option == 0 || $about_option == 00 ]]; then
 sleep 1
@@ -413,7 +416,8 @@ smallbanner
 printf "\e[0m\e[91m [\e[0m01\e[0m\e[91m]\e[0m\e[96m LocalHost\e[0m\n"
 printf "\e[0m\e[91m [\e[0m02\e[0m\e[91m]\e[0m\e[96m Ngrok\e[0m\n"
 printf "\e[0m\n"
-read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Select a Port Forwarding option: \e[0m\e[1;96m\en' tunnel_menu
+echo -e "╭─[TECHNOCYBER]" |lolcat
+read -p "   ╰─root@./2Timeowl=" tunnel_menu
 tunnel_menu="${tunnel_menu:-${def_tunnel_menu}}"
 
 if [[ $tunnel_menu == 1 || $tunnel_menu == 01 ]]; then
