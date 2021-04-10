@@ -41,16 +41,16 @@
 * Installation
 
 <p align="center">
-<a href="https://Technocyber.tk"><img src="img/Screenshot_2021-04-05-00-45-28-29_84d3000e3f4017145260f7618db1d683.jpg"></a>
+<a href="https://Technocyber.tk"><img src="img/Screenshot_2021-045-00-45-28-29_84d3000e3f4017145260f7618db1d683.jpg"></a>
 </p>
 <p align="center">
-<a href="https://Technocyber.tk"><img src="img/Screenshot_2021-04-05-00-46-08-26_84d3000e3f4017145260f7618db1d683.jpg"></a>
+<a href="https://Technocyber.tk"><img src="img/Screensh_2021-04-05-00-46-08-26_84d3000e3f4017145260f7618db1d683.jpg"></a>
 </p>
 <p align="center">
-<a href="https://Technocyber.tk"><img src="img/Screenshot_2021-04-05-00-46-41-36_84d3000e3f4017145260f7618db1d683.jpg"></a>
+<a href="https://Technocyber.tk"><img src="img/Screenshot021-04-05-00-46-41-36_84d3000e3f4017145260f7618db1d683.jpg"></a>
 </p>
 <p align="center">
-<a href="https://Technocyber.tk"><img src="img/Screenshot_2021-04-05-00-46-56-67_84d3000e3f4017145260f7618db1d683.jpg"></a>
+<a href="https://Technocyber.tk"><img src="img/Screenst_2021-04-05-00-46-56-67_84d3000e3f4017145260f7618db1d683.jpg"></a>
 </p>
 
 # CONTRIBUTORS 
