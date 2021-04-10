@@ -108,7 +108,7 @@ printf "\e[0m\n"
 
 menu() {
 
-
+echo ""
 echo -e "#########################################################" | lolcat
 echo -e "     # SELECT AND ATTACK FOR YOUR VICTIM #" | lolcat
 echo -e "#########################################################" | lolcat
