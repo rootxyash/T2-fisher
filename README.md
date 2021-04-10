@@ -21,6 +21,7 @@ T2-fisher is a advanced phishing tool with 20+ Templates. The tool is made for P
 # AVAILABLE FOR
 
 > **[`Linux`](#)**
+#
 > **[`Termux`](#)**
 
 # INSTALLATION COMMANDS
