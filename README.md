@@ -59,8 +59,10 @@
 
 # CONTRIBUTORS 
 
-Special Thanks to Hackerspunk for helping me in this project.
+> **[`Special Thanks to Hackerspunk for helping me in this project.
+`](#)**
 
 # WARNING 
 
-The tool is made for only educational purpose. We are not responsible for any misuse and damaged caused by this program.
+> **[`The tool is made for only educational purpose. We are not responsible for any misuse and damaged caused by this program.
+`](#)**
