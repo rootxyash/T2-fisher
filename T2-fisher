@@ -82,11 +82,19 @@ printf "\e[0m\e[92m   | |    /   _/        | (         | |         ) || (   ) ||
 printf "\e[0m\e[92m   | |   (   (__/\      | )      ___) (___/\____) || )   ( || (____/\| ) \ \__\e[0m\n"
 printf "\e[0m\e[92m   )_(   \_______/      |/       \_______/\_______)|/     \|(_______/|/   \__/\e[0m\n"
 printf "\e[0m\n"
-echo "-------------------------------------------------------" |lolcat
-echo   "Created BY  : TECHNOCYBER & HACKERSPUNK- $white" |lolcat
-echo   "Contact For Any Queries  : +91 9960524818 ( TECHNOCYBER )" |lolcat
-echo   "Contact For Any Queries  : +91 7365009054 ( HACKERSPUNK )" |lolcat
-echo "-------------------------------------------------------" |lolcat
+
+figlet T2-FISHER  | lolcat
+
+echo -b "_____________________________________________________________" | lolcat
+echo -b "TYPE      : PHISHING TOOL $green " |lolcat
+echo -b "VERSION   : 1.0 " | lolcat
+echo -b "TEMPLATES : 20+ TEMPLATES " | lolcat
+echo -b "AUTHOR    : TECHNOCYBER & HACKERSPUNK $green " |lolcat
+echo -b "INSTAGRAM : https://Instagram.com/Technocyber.sh $green " |lolcat
+echo -b "INSTAGRAM : https://Instagram.com/Hackerspunk $green " |lolcat
+echo -b "CONTACT   : +91 9960524818 (TECHNOCYBER) $green " |lolcat
+echo -b "CONTACT   : +91 7365009054 (HACKERSPUNK)  " | lolcat
+echo -b "_____________________________________________________________" | lolcat
 
 }
 
