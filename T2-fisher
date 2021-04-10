@@ -72,22 +72,12 @@ fi
 banner() {
 
 clear
-printf "\e[0m\n"
-printf "\e[0m\e[93m_________ _______        _______ _________ _______           _______  _______ \e[0m\n"
-printf "\e[0m\e[93m\__   __// ___   )      (  ____ \\__   __/(  ____ \|\     /|(  ____ \(  ____ )\e[0m\n"
-printf "\e[0m\e[93m   ) (   \/   )  |      | (    \/   ) (   | (    \/| )   ( || (    \/| (    )|\e[0m\n"
-printf "\e[0m\e[93m   | |       /   )_____ | (__       | |   | (_____ | (___) || (__    | (____)|\e[0m\n"
-printf "\e[0m\e[92m   | |     _/   /(_____)|  __)      | |   (_____  )|  ___  ||  __)   |     __)\e[0m\n"
-printf "\e[0m\e[92m   | |    /   _/        | (         | |         ) || (   ) || (      | (\ (\e[0m\n"
-printf "\e[0m\e[92m   | |   (   (__/\      | )      ___) (___/\____) || )   ( || (____/\| ) \ \__\e[0m\n"
-printf "\e[0m\e[92m   )_(   \_______/      |/       \_______/\_______)|/     \|(_______/|/   \__/\e[0m\n"
-printf "\e[0m\n"
 
 figlet T2-FISHER  | lolcat
 
 echo -b "_____________________________________________________________" | lolcat
 echo -b "TYPE      : PHISHING TOOL $green " |lolcat
-echo -b "VERSION   : 1.0 " | lolcat
+echo -b "VERSION   : 1.0v " | lolcat
 echo -b "TEMPLATES : 20+ TEMPLATES " | lolcat
 echo -b "AUTHOR    : TECHNOCYBER & HACKERSPUNK $green " |lolcat
 echo -b "INSTAGRAM : https://Instagram.com/Technocyber.sh $green " |lolcat
