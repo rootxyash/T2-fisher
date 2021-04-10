@@ -9,12 +9,13 @@ printf "\e[0m\n"
 printf "\e[0m\e[1;36m\t CTRL + C Pressed !!\n"
 sleep 2
 echo ""
-echo -b $green"THANKS FOR USING MY TOOL " |lolcat
+echo -b $green"      THANKS FOR USING MY TOOL " |lolcat
 echo ""
-echo -b $green"BYE BYE! TAKE CARE COME AGAIN! " |lolcat
+echo -b $green"      BYE BYE! TAKE CARE COME AGAIN! " |lolcat
 echo ""
 sleep 1
-echo -b $green"YOURS (TECHNOCYBER & HACKERSPUNK) " |lolcat
+echo -b $green"      YOURS (TECHNOCYBER & HACKERSPUNK) " |lolcat
+echo ""
 exit 1
 }
 
