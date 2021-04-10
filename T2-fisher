@@ -239,8 +239,8 @@ printf " |\e[1;31m[\e[0m\e[1;77m02\e[0m\e[1;31m]\e[0m\e[0m\e[96m          Advanc
 printf " |\e[1;31m[\e[0m\e[1;77m03\e[0m\e[1;31m]\e[0m\e[0m\e[96m          Fake Security Login Page        |\e[0m\n"
 printf " |\e[1;31m[\e[0m\e[1;77m04\e[0m\e[1;31m]\e[0m\e[0m\e[96m          Facebook Messenger Login Page   |\e[0m\n"
 echo  "  |_____________________________________________________________" | lolcat
-read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Select an option: \e[0m\e[1;96m\en' fb_option
-
+echo -e "╭─[2TIMEOWL]" |lolcat
+read -p "   ╰─root@./Technocyber=" fb_option
 
 if [[ $fb_option == 1 || $fb_option == 01 ]]; then
 website="facebook"
