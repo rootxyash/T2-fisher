@@ -82,20 +82,11 @@ printf "\e[0m\e[92m   | |    /   _/        | (         | |         ) || (   ) ||
 printf "\e[0m\e[92m   | |   (   (__/\      | )      ___) (___/\____) || )   ( || (____/\| ) \ \__\e[0m\n"
 printf "\e[0m\e[92m   )_(   \_______/      |/       \_______/\_______)|/     \|(_______/|/   \__/\e[0m\n"
 printf "\e[0m\n"
-printf " \e[0m\e[96m          Most Advanced Phishing Tool of 2021 with 20+ Templates\e[0m\n"
-printf "\e[0m\n"
-printf " \e[0m\e[96m                 [ BY : TECHNOCYBER & HACKERSPUNK ]\e[0m\n"
-printf "\e[0m\n"
-printf " \e[1;92m                          :: DISCLAIMER ::\e[0m\n"
-printf "\e[0m\n"
-printf " \e[1;37m      ANY MISSUE OR DAMAGED CAUSED BY THIS PROGRAM IS ON USERS BEHALF\e[0m\n"
-printf "\e[0m\n"
-printf " \e[1;37m                   USE FOR ONLY EDUCATIONAL PURPOSE\e[0m\n"
-printf "\e[0m\n"
-printf " \e[1;31m[\e[0m\e[1;77m01\e[0m\e[1;31m]\e[0m\e[0m\e[92m For Any Queries Contact Us [ TECHNOCYBER  = +91 9960524818 ]\e[0m\n"
-printf "\e[0m\n"
-printf " \e[1;31m[\e[0m\e[1;77m02\e[0m\e[1;31m]\e[0m\e[0m\e[92m For Any Queries Contact Us [ HACKERSPUNK = +91 7365009054 ]\e[0m\n"
-printf "\e[0m\n"
+echo "-------------------------------------------------------" |lolcat
+echo   "Created BY  : TECHNOCYBER & HACKERSPUNK- $white" |lolcat
+echo   "Contact For Any Queries  : +91 9960524818 ( TECHNOCYBER )" |lolcat
+echo   "Contact For Any Queries  : +91 7365009054 ( HACKERSPUNK )" |lolcat
+echo "-------------------------------------------------------" |lolcat
 
 }
 
