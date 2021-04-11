@@ -25,6 +25,9 @@ apt-get -y install php
 apt-get -y install unzip
 apt-get -y install openssh-server
 apt-get -y install openssh
+apt-get -y install figlet
+apt-get -y install ruby
+gem install lolcat
 clear
 xdg-open https://bit.ly/3f1AQiK
 printf "\e[0m\n"
