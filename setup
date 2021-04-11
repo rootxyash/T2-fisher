@@ -3,17 +3,15 @@
 banner() {
 clear
 printf "\e[0m\n"
-printf "\e[0m\e[93m  _______        _                            _\e[0m\n"             
-printf "\e[0m\e[96m |__   __|      | |                          | |\e[0m\n"             
-printf "\e[0m\e[93m    | | ___  ___| |__  _ __   ___   ___ _   _| |__   ___ _ __\e[0m\n" 
-printf "\e[0m\e[96m    | |/ _ \/ __| '_ \| '_ \ / _ \ / __| | | | '_ \ / _ \ '__|\e[0m\n"
-printf "\e[0m\e[92m    | |  __/ (__| | | | | | | (_) | (__| |_| | |_) |  __/ |\e[0m\n" 
-printf "\e[0m\e[96m    |_|\___|\___|_| |_|_| |_|\___/ \___|\__, |_.__/ \___|_|\e[0m\n"   
-printf "\e[0m\e[93m                                         __/ |\e[0m\n"               
-printf "\e[0m\e[96m                                        |___/     v:1.0\e[0m\n"          
+printf "\e[0m\e[93m████████ ██████        ███████ ██ ███████ ██   ██ ███████ ██████\e[0m\n"
+printf "\e[0m\e[93m   ██         ██       ██      ██ ██      ██   ██ ██      ██   ██\e[0m\n"
+printf "\e[0m\e[93m   ██     █████  █████ █████   ██ ███████ ███████ █████   ██████\e[0m\n"
+printf "\e[0m\e[93m ██    ██            ██      ██      ██ ██   ██ ██      ██   ██\e[0m\n"
+printf "\e[0m\e[93m   ██    ███████       ██      ██ ███████ ██   ██ ███████ ██   ██\e[0m\n"
 printf "\e[0m\n"
-printf " \e[0m\e[92m                       CODED BY TECHNOCYBER & HACKERSPUNK\e[0m\n"   
-printf "\e[0m\n"
+echo -e $'\e[1;37m\e[0m\e[1;37m    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ >>\e[0m\n"|lolcat
+      echo -e "\e[93m             CODED BY TECHNOCYBER AND HACKERSPUNK"|lolcat
+      echo -e $'\e[1;37m\e[0m\e[1;37m    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+->>\e[0m\n"|lolcat
 }
 banner
 printf "\e[0m\n"
