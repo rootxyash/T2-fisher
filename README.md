@@ -34,7 +34,7 @@ apt upgrade -y
 apt install git -y
 git clone https://github.com/Technocyber/T2-fisher
 cd T2-fisher
-bash setup.sh
+bash install.sh
 ```
 
 # SCREENSHOTS
