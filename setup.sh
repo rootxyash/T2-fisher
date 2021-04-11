@@ -15,7 +15,7 @@ echo -e $'\e[1;37m\e[0m\e[1;37m    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 }
 banner
 printf "\e[0m\n"
-printf "\e[0m\e[1;97m                |------------[ INSTALLING PACKAGES ]------------|\e[0m\n"
+printf "\e[0m\e[1;97m          |------------[ INSTALLING PACKAGES ]------------|\e[0m\n"
 printf "\e[0m\n"
 apt-get update
 apt-get upgrade -y
@@ -28,7 +28,7 @@ apt-get -y install openssh
 clear
 xdg-open https://bit.ly/3f1AQiK
 printf "\e[0m\n"
-printf "\e[0m\e[1;97m             |------------[ INSTALLING DEPENDENCIES ]-------------|\e[0m\n"
+printf "\e[0m\e[1;97m         |------------[ INSTALLING DEPENDENCIES ]-------------|\e[0m\n"
 if [[ -d .htr ]]; then
 printf ""
 else
