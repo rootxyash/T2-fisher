@@ -417,7 +417,7 @@ printf "\e[0m\e[91m [\e[0m01\e[0m\e[91m]\e[0m\e[96m LocalHost\e[0m\n"
 printf "\e[0m\e[91m [\e[0m02\e[0m\e[91m]\e[0m\e[96m Ngrok\e[0m\n"
 printf "\e[0m\n"
 echo -e "╭─[TECHNOCYBER]" |lolcat
-read -p "   ╰─root@./2Timeowl=" tunnel_menu
+read -p "   ╰─root@2Timeowl=" tunnel_menu
 tunnel_menu="${tunnel_menu:-${def_tunnel_menu}}"
 
 if [[ $tunnel_menu == 1 || $tunnel_menu == 01 ]]; then
