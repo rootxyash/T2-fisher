@@ -3,19 +3,19 @@
 banner() {
 clear
 printf "\e[0m\n"
-printf "\e[0m\e[93m████████ ██████        ███████ ██ ███████ ██   ██\e[0m\n"
-printf "\e[0m\e[93m   ██         ██       ██      ██ ██      ██   ██\e[0m\n"
-printf "\e[0m\e[93m   ██     █████  █████ █████   ██ ███████ ███████\e[0m\n"
-printf "\e[0m\e[93m   ██    ██            ██      ██      ██ ██   ██\e[0m\n"
-printf "\e[0m\e[93m   ██    ███████       ██      ██ ███████ ██   ██\e[0m\n"
+printf "\e[0m\e[93m████████ ██████     \e[0m\e[1;33m\e[0m\e[1;32m    ███████ ██ ███████ ██   ██ ███████ ██████\e[0m\n"
+printf "\e[0m\e[93m   ██         ██      \e[0m\e[1;33m\e[0m\e[1;32m  ██      ██ ██      ██   ██ ██      ██   ██\e[0m\n"
+printf "\e[0m\e[93m   ██     █████  █████\e[0m\e[1;33m\e[0m\e[1;32m  █████   ██ ███████ ███████ █████   ██████\e[0m\n"
+printf "\e[0m\e[93m   ██    ██           \e[0m\e[1;33m\e[0m\e[1;32m  ██      ██      ██ ██   ██ ██      ██   ██\e[0m\n"
+printf "\e[0m\e[93m   ██    ███████     \e[0m\e[1;33m\e[0m\e[1;32m   ██      ██ ███████ ██   ██ ███████ ██   ██\e[0m\n"
 printf "\e[0m\n"
-echo -e $'\e[1;37m\e[0m\e[1;37m    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ >>\e[0m'
-      echo -e "\e[93m             -+CODED BY TECHNOCYBER AND HACKERSPUNK+-"      
-      echo -e $'\e[1;37m\e[0m\e[1;37m    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ >>\e[0m' 
+echo -e $'\e[1;37m\e[0m\e[1;37m  +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ >>\e[0m'|lolcat
+      echo -e "\e[93m    +_+CODED BY TECHNOCYBER AND HACKERSPUNK+_+"|lolcat     
+      echo -e $'\e[1;37m\e[0m\e[1;37m +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ >>\e[0m'|lolcat
 }
 banner
 printf "\e[0m\n"
-printf "\e[0m\e[1;97m          |------------[ INSTALLING PACKAGES ]------------|\e[0m\n"
+printf "\e[0m\e[1;97m        |------------[ INSTALLING PACKAGES ]------------|\e[0m\n"
 printf "\e[0m\n"
 apt-get update
 apt-get upgrade -y
