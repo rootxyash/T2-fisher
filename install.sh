@@ -9,9 +9,9 @@ printf "\e[0m\e[93m   ██     █████  █████ ██
 printf "\e[0m\e[93m ██    ██            ██      ██      ██ ██   ██ ██      ██   ██\e[0m\n"
 printf "\e[0m\e[93m   ██    ███████       ██      ██ ███████ ██   ██ ███████ ██   ██\e[0m\n"
 printf "\e[0m\n"
-echo -e $'\e[1;37m\e[0m\e[1;37m    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ >>\e[0m\n"|lolcat
-      echo -e "\e[93m             CODED BY TECHNOCYBER AND HACKERSPUNK"|lolcat
-      echo -e $'\e[1;37m\e[0m\e[1;37m    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+->>\e[0m\n"|lolcat
+echo -e $'\e[1;37m\e[0m\e[1;37m    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ >>\e[0m'
+      echo -e "\e[93m             -+CODED BY TECHNOCYBER AND HACKERSPUNK+-"      
+      echo -e $'\e[1;37m\e[0m\e[1;37m    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ >>\e[0m' 
 }
 banner
 printf "\e[0m\n"
