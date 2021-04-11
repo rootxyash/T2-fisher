@@ -125,7 +125,7 @@ printf " \e[1;31m[\e[0m\e[1;77m09\e[0m\e[1;31m]\e[0m\e[0m\e[96m Playstation \e[0
 printf " \e[1;31m[\e[0m\e[1;77m10\e[0m\e[1;31m]\e[0m\e[0m\e[96m Github      \e[0m\e[1;31m[\e[0m\e[1;77m20\e[0m\e[1;31m]\e[0m\e[0m\e[96m Adobe\e[0m\n" |lolcat   
 printf "\e[0m\n"
 echo -e "╭─[TECHNOCYBER]" |lolcat
-read -p "   ╰─root@./2Timeowl=" menu_option
+read -p "   ╰─root@2Timeowl=" menu_option
 
 if [[ $menu_option == 1 || $menu_option == 01 ]]; then
 facebook
@@ -241,7 +241,7 @@ printf "          \e[1;31m[\e[0m\e[1;77m04\e[0m\e[1;31m]\e[0m\e[0m\e[96m Faceboo
 echo  "  _____________________________________________________________" | lolcat
 echo ""
 echo -e "╭─[TECHNOCYBER]" |lolcat
-read -p "   ╰─root@./2Timeowl=" fb_option
+read -p "   ╰─root@2Timeowl=" fb_option
 
 if [[ $fb_option == 1 || $fb_option == 01 ]]; then
 website="facebook"
@@ -271,7 +271,7 @@ printf " \e[1;31m[\e[0m\e[1;77m02\e[0m\e[1;31m]\e[0m\e[0m\e[96m Auto Followers L
 printf " \e[1;31m[\e[0m\e[1;77m03\e[0m\e[1;31m]\e[0m\e[0m\e[96m Blue Badge Verify Login Page\e[0m\n"
 printf "\e[0m\n"
 echo -e "╭─[TECHNOCYBER]" |lolcat
-read -p "   ╰─root@./2Timeowl=" ig_option
+read -p "   ╰─root@2Timeowl=" ig_option
 
 
 if [[ $ig_option == 1 || $ig_option == 01 ]]; then
@@ -299,7 +299,7 @@ printf " \e[1;31m[\e[0m\e[1;77m02\e[0m\e[1;31m]\e[0m\e[0m\e[96m Gmail New Login 
 printf " \e[1;31m[\e[0m\e[1;77m03\e[0m\e[1;31m]\e[0m\e[0m\e[96m Advanced Voting Poll\e[0m\n"
 printf "\e[0m\n"
 echo -e "╭─[TECHNOCYBER]" |lolcat
-read -p "   ╰─root@./2Timeowl=" gmail_option
+read -p "   ╰─root@2Timeowl=" gmail_option
 
 
 if [[ $gmail_option == 1 || $gmail_option == 01 ]]; then
@@ -326,7 +326,7 @@ printf " \e[1;31m[\e[0m\e[1;77m01\e[0m\e[1;31m]\e[0m\e[0m\e[96m Traditional Logi
 printf " \e[1;31m[\e[0m\e[1;77m02\e[0m\e[1;31m]\e[0m\e[0m\e[96m Advanced Voting Poll Login Page\e[0m\n"
 printf "\e[0m\n"
 echo -e "╭─[TECHNOCYBER]" |lolcat
-read -p "   ╰─root@./2Timeowl=" vk_option
+read -p "   ╰─root@2Timeowl=" vk_option
 
 if [[ $vk_option == 1 || $vk_option == 01 ]]; then
 website="vk"
@@ -372,7 +372,7 @@ sleep 3
 printf " \e[0m\e[91m[\e[0m00\e[0m\e[91m]\e[0m\e[93m Home           \e[0m\e[91m[\e[0m99\e[0m\e[91m]\e[0m\e[93m Exit\e[0m\n"
 printf "\e[0m\n"
 echo -e "╭─[TECHNOCYBER]" |lolcat
-read -p "   ╰─root@./2Timeowl=" about_option
+read -p "   ╰─root@2Timeowl=" about_option
 
 if [[ $about_option == 0 || $about_option == 00 ]]; then
 sleep 1
