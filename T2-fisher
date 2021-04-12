@@ -76,8 +76,13 @@ banner() {
 
 clear
 
-figlet T2-FISHER  | lolcat
-
+printf "\e[0m\n" 
+printf "\e[0m\e[37m████████ ██████     \e[0m\e[1;33m\e[0m\e[96m    ███████ ██ ███████ ██   ██ ███████ ██████\e[0m\n"
+printf "\e[0m\e[37m   ██         ██      \e[0m\e[1;33m\e[0m\e[96m  ██      ██ ██      ██   ██ ██      ██   ██\e[0m\n"
+printf "\e[0m\e[37m   ██     █████  █████\e[0m\e[1;33m\e[0m\e[96m  █████   ██ ███████ ███████ █████   ██████\e[0m\n"
+printf "\e[0m\e[37m   ██    ██           \e[0m\e[1;33m\e[0m\e[96m  ██      ██      ██ ██   ██ ██      ██   ██\e[0m\n"
+printf "\e[0m\e[37m   ██    ███████     \e[0m\e[1;33m\e[0m\e[96m   ██      ██ ███████ ██   ██ ███████ ██   ██\e[0m\n"
+printf "\e[0m\n"
 echo -TC "_____________________________________________________________" | lolcat
 echo -TC "TYPE      : PHISHING TOOL $green " |lolcat
 echo -TC "VERSION   : 1.0v " | lolcat
