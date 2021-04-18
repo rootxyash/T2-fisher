@@ -98,9 +98,9 @@ clear
 figlet T2-FISHER  | lolcat
 
 echo " "
-echo -e $'\e[1;37m\e[0m\e[1;37m  <<+-+-+-+-+-+-+-+-+-+ WANT TO LEARN HACKING ? +-+-+-+-+-+-+-+-+-+ >>\e[0m'|lolcat
+echo -e $'\e[1;37m\e[0m\e[1;37m  <<+-+-+-+-+-+-+-+-+-+ WANT TO LEARN HACKING ? +-+-+-+-+-+-+-+-+-+>>\e[0m'|lolcat
 echo " "
-echo -e " <×••••••••••••••• VISIT OUR WEBSITE FOR MORE INFORMATION ••••••••••••••••×>"|lolcat
+echo -e " <×•••••••••••• VISIT OUR WEBSITE FOR MORE INFORMATION ••••••••••••×>"|lolcat
 echo " "
 echo -e " ××××××××××××××××××××××× www.technocyber.tk ××××××××××××××××××××××"|lolcat
 echo " "
@@ -235,12 +235,10 @@ fi
 
 clear
 facebook(){
-echo  "  _____________________________________________________________" | lolcat
 printf "          \e[1;31m[\e[0m\e[1;77m01\e[0m\e[1;31m]\e[0m\e[0m\e[96m Traditional Login Page\e[0m\n"
 printf "          \e[1;31m[\e[0m\e[1;77m02\e[0m\e[1;31m]\e[0m\e[0m\e[96m Advanced Voting Poll Login Page\e[0m\n"
 printf "          \e[1;31m[\e[0m\e[1;77m03\e[0m\e[1;31m]\e[0m\e[0m\e[96m Fake Security Login Page\e[0m\n"
 printf "          \e[1;31m[\e[0m\e[1;77m04\e[0m\e[1;31m]\e[0m\e[0m\e[96m Facebook Messenger Login Page\e[0m\n"
-echo  "  _____________________________________________________________" | lolcat
 echo ""
 echo -e "╭─[TECHNOCYBER]" |lolcat
 read -p "   ╰─root@2Timeowl=" fb_option
@@ -415,8 +413,8 @@ cp -f .Modules/ip.php .htr/www/
 
 def_tunnel_menu="2"
 smallbanner
-echo -e " =*=*==*=*=*=*=*=*=*=*=*=*=* SELECT A PORT FORWARDING OPTION =*=*=*=*=*=*=*=*=*=*=*=*=*"
-echo -e "\e[96m                        T2-FISHER PORT FORWARDING\e[96m"
+echo -e " =*=*=*=*=*=*=*=*=* SELECT A PORT FORWARDING OPTION =*=*=*=*=*=*=*=*=*=*"
+echo -e "\e[96m                        T2-FISHER PORT FORWARDING\e[96m"|lolcat
 echo -e "\e[96m                        ╔═══════════════════════╗\e[0m"
 echo -e "\e[91m                        ║\e[93m    FOR LOCAL HOST    \e[91m ║\e[0m"                                                             
 echo -e "\e[91m                        ║        \e[93mType\e[92m 01\e[91m        ║\e[0m"
