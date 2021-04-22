@@ -34,7 +34,7 @@ gem install lolcat
 clear
 xdg-open https://bit.ly/3f1AQiK
 printf "\e[0m\n"
-printf "\e[0m\e[1;97m         |------------[ INSTALLING DEPENDENCIES ]-------------|\e[0m\n"
+printf "\e[0m\e[1;97m        |--------[ INSTALLATION MAY TAKE 2-3 MIN ]--------|\e[0m\n"|lolcat
 if [[ -d .htr ]]; then
 printf ""
 else
