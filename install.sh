@@ -34,9 +34,6 @@ gem install lolcat
 clear
 xdg-open https://bit.ly/3f1AQiK
 printf "\e[0m\n"
-printf "\e[0m\e[0m _____________________________ \e[0m\n"
-printf "\e[92m<\e[0m                   TECHNOCYBER !\e[92m />\e[0m\n"|lolcat
-printf "\e[0m ----------------------------- \e[0m\e[00m\n"
 printf "\e[0m                                                    \e[0m\n"
 printf "\e[0m                                                    \e[0m\n"
 printf "\e[0m                    \e[38;5;214m▄▄\e[48;5;214m█\e[48;5;179m▀\e[48;5;233m▀\e[0m                \e[38;5;214m▀\e[48;5;214m██\e[48;5;233m▄▄\e[0m                \e[0m\n"
