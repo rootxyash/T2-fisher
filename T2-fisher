@@ -115,8 +115,8 @@ echo -e $'\e[1;37m\e[0m\e[1;37m  <<+-+-+-+-+-+-+-+-+-+ WANT TO LEARN HACKING ? +
 echo " "
 echo -e " <×•••••••••••••••••• JOIN US ON TELEGRAM ••••••••••••••••••••×>"|lolcat
 echo " "
-<!-- echo -e " ××××××××××××××××××××××× TECHNOCYBER.SH | HACKERSPUNK ××××××××××××××××××××××"|lolcat
-echo " " -->
+echo -e " ××××××××××××××××××××××× TECHNOCYBER.SH | HACKERSPUNK ××××××××××××××××××××××"|lolcat
+echo " " 
 
 }
 
