@@ -111,7 +111,7 @@ printf "\e[0m                             \e[38;5;91;48;5;55m▀\e[48;5;17m▀\e
 printf "\e[0m                              \e[38;5;18;48;5;17m▀\e[48;5;24m▀\e[48;5;25m▀▀\e[48;5;18m▀\e[48;5;17m▀\e[0m                          \e[0m\n"
 printf "\e[0m                                                    \e[0m\n"
 printf "\e[0m"
-echo -e "                          DON'T ASK TO HACK! JUST HACK IT!"|lolcat
+echo -e "                   DON'T ASK TO HACK! JUST HACK IT!"|lolcat
 echo " "
 echo -e $'\e[1;37m\e[0m\e[1;37m  <<+-+-+-+-+-+-+-+-+-+ WANTS TO LEARN HACKING ? +-+-+-+-+-+-+-+-+-+>>\e[0m'|lolcat
 echo " "
