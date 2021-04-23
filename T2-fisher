@@ -110,8 +110,6 @@ printf "\e[0m                             \e[38;5;89;48;5;53m▀\e[38;5;127m▄\
 printf "\e[0m                             \e[38;5;91;48;5;55m▀\e[48;5;17m▀\e[38;5;19;48;5;134m▄\e[48;5;56m▄▄\e[48;5;134m▄\e[38;5;90;48;5;17m▀\e[38;5;91;48;5;55m▀\e[0m                         \e[0m\n"
 printf "\e[0m                              \e[38;5;18;48;5;17m▀\e[48;5;24m▀\e[48;5;25m▀▀\e[48;5;18m▀\e[48;5;17m▀\e[0m                          \e[0m\n"
 printf "\e[0m                                                    \e[0m\n"
-printf "\e[0m
-printf "\e[0m                       DON'T ASK TO HACK ! JUST HACK IT ! |lolcat
 printf "\e[0m"
 echo -e $'\e[1;37m\e[0m\e[1;37m  <<+-+-+-+-+-+-+-+-+-+ WANTS TO LEARN HACKING ? +-+-+-+-+-+-+-+-+-+>>\e[0m'|lolcat
 echo " "
