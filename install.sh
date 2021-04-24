@@ -32,6 +32,7 @@ apt-get -y install figlet
 apt-get -y install ruby
 gem install lolcat
 clear
+
 xdg-open https://bit.ly/3f1AQiK
 printf "\e[0m\n"
 printf "\e[0m                                                    \e[0m\n"
