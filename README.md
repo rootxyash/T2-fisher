@@ -28,17 +28,21 @@
 
 # INSTALLATION COMMANDS
 
-```
-'apt update'
-apt upgrade -y
-apt install git -y
-git clone https://github.com/Technocyber/T2-fisher
-cd T2-fisher
-bash install.sh
-bash T2-fisher
-```
 
-# SCREENSHOTS
+> **[`apt upgrade -y`](#)**
+
+> **[`apt install git -y`](#)**
+
+> **[`git clone https://github.com/Technocyber/T2-fisher
+`](#)**
+
+> **[`cd T2-fisher`](#)**
+
+> **[`bash install.sh`](#)**
+
+
+
+`PREVIEWS`
 
 > **[`INSTALLATION`](#)**
 
