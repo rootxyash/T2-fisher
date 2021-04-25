@@ -42,9 +42,10 @@ bash T2-fisher
 
 > **[`INSTALLATION`](#)**
 
-<p align="center">
-<a href="https://Technocyber.tk"><img src="img/Screenshot_2021-045-00-45-28-29_84d3000e3f4017145260f7618db1d683.jpg"></a>
-</p>
+|Import - URL|Import - Local|
+|--|--|
+|![img](images/url.gif)|![img](images/local.gif)|
+
 <p align="center">
 <a href="https://Technocyber.tk"><img src="img/Screensh_2021-04-05-00-46-08-26_84d3000e3f4017145260f7618db1d683.jpg"></a>
 </p>
