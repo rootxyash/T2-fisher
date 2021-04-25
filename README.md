@@ -54,7 +54,7 @@
 |--|--|
 |![img](img/IMG_20210425_224153.jpg)|![img](img/IMG_20210425_225548.jpg)|
 
-|`POST FORWADING`|`SUCCESSFULLY GENERATED`|
+|`PORT FORWADING`|`LINK GENERATED`|
 |--|--|
 |![img](img/IMG_20210425_224209.jpg)|![img](img/IMG_20210425_224230.jpg)|
 
