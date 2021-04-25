@@ -44,7 +44,7 @@ bash T2-fisher
 
 |INSTALLING |DEPENDENCIES|
 |--|--|
-|![img](img/IMG_20210425_224137.jpg)|![img](img/)|
+|![img](img/IMG_20210425_224137.jpg)|![img](img/IMG_20210425_225557.jpg)|
 
 |MAIN |MENU|
 |--|--|
@@ -54,16 +54,6 @@ bash T2-fisher
 |--|--|
 |![img](img/IMG_20210425_224209.jpg)|![img](img/IMG_20210425_224230.jpg)|
 
-
-<p align="center">
-<a href="https://Technocyber.tk"><img src="img/Screensh_2021-04-05-00-46-08-26_84d3000e3f4017145260f7618db1d683.jpg"></a>
-</p>
-<p align="center">
-<a href="https://Technocyber.tk"><img src="img/Screenshot021-04-05-00-46-41-36_84d3000e3f4017145260f7618db1d683.jpg"></a>
-</p>
-<p align="center">
-<a href="https://Technocyber.tk"><img src="img/Screenst_2021-04-05-00-46-56-67_84d3000e3f4017145260f7618db1d683.jpg"></a>
-</p>
 
 # CONTRIBUTORS 
 
