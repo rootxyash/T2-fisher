@@ -44,7 +44,7 @@ bash T2-fisher
 
 |Import - URL|Import - Local|
 |--|--|
-|![img](images/url.gif)|![img](images/local.gif)|
+|![img](img/Screenshot_2021-04-25-20-24-33-27_84d3000e3f4017145260f7618db1d683.jpg)|![img](img/Screenshot_2021-04-25-20-24-33-27_84d3000e3f4017145260f7618db1d683.jpg)|
 
 <p align="center">
 <a href="https://Technocyber.tk"><img src="img/Screensh_2021-04-05-00-46-08-26_84d3000e3f4017145260f7618db1d683.jpg"></a>
