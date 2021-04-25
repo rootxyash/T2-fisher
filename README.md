@@ -42,7 +42,7 @@ bash T2-fisher
 
 > **[`INSTALLATION`](#)**
 
-|Import - URL|Import - Local|
+|INSTALLING |DEPENDENCIES|
 |--|--|
 |![img](img/Screenshot_2021-04-25-20-24-33-27_84d3000e3f4017145260f7618db1d683.jpg)|![img](img/Screenshot_2021-04-25-20-24-33-27_84d3000e3f4017145260f7618db1d683.jpg)|
 
