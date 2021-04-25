@@ -44,15 +44,15 @@ bash T2-fisher
 
 |INSTALLING |DEPENDENCIES|
 |--|--|
-|![img](img/IMG_20210425_224137.jpg)|![img](img/Screenshot_2021-04-25-20-24-33-27_84d3000e3f4017145260f7618db1d683.jpg)|
+|![img](img/IMG_20210425_224137.jpg)|![img](img/)|
 
 |MAIN |MENU|
 |--|--|
-|![img](img/IMG_20210425_224153.jpg)|![img](img/Screenshot_2021-04-25-20-24-33-27_84d3000e3f4017145260f7618db1d683.jpg)|
+|![img](img/IMG_20210425_224153.jpg)|![img](img/)|
 
 |POST FORWADING |SUCCESSFULLY GENERATED|
 |--|--|
-|![img](img/IMG_20210425_224209.jpg)|![img](img/Screenshot_2021-04-25-20-24-33-27_84d3000e3f4017145260f7618db1d683.jpg)|
+|![img](img/IMG_20210425_224209.jpg)|![img](img/IMG_20210425_224230.jpg)|
 
 
 <p align="center">
