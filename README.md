@@ -48,7 +48,7 @@ bash T2-fisher
 
 |MAIN |MENU|
 |--|--|
-|![img](img/IMG_20210425_224153.jpg)|![img](img/)|
+|![img](img/IMG_20210425_224153.jpg)|![img](img/IMG_20210425_225548.jpg)|
 
 |POST FORWADING |SUCCESSFULLY GENERATED|
 |--|--|
