@@ -13,7 +13,7 @@ echo""
   echo -e $'\e[1;33m\e[0m\e[1;33m    ██████████\e[0m'"\e[96m██████████"'\e[1;33m\e[0m\e[1;31m██████████\e[0m' '\e[1;32m\e[0m\e[1;32m PHISHING TOOL \e[0m''\e[1;37m\e[0m\e[1;37m [v 2.1] \e[0m'                                       
   echo ""
 echo -e $'\e[1;37m\e[0m\e[1;37m  <<+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ >>\e[0m'|lolcat
-      echo -e "\e[93m        +_+CODED BY TECHNOCYBER AND HACKERSPUNK+_+"|lolcat     
+      echo -e "\e[93m        +_+CODED BY GENIXCYBER AND NETSLUTTER+_+"|lolcat     
       echo -e $'\e[1;37m\e[0m\e[1;37m  <<+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ >>\e[0m'|lolcat
 }
 banner
