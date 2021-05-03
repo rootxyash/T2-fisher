@@ -17,29 +17,25 @@
 # ABOUT TOOL
 
 
-> **[`T2-fisher is a advanced phishing tool with 20+ Templates. The tool is made for Phishing. It works on both Rooted and Non-Rooted device.
+**[`T2-fisher is a advanced phishing tool with 20+ Templates. The tool is made for Phishing. It works on both Rooted and Non-Rooted device.
 `](#)**
 
 # AVAILABLE FOR
 
-> **[`Linux`](#)**
+**[`Linux`](#)**
 
-> **[`Termux`](#)**
+**[`Termux`](#)**
 
 # INSTALLATION COMMANDS
 
-
-> **[`apt upgrade -y`](#)**
-
-> **[`apt install git -y`](#)**
-
-> **[`git clone https://github.com/Genixcyber/T2-fisher
-`](#)**
-
-> **[`cd T2-fisher`](#)**
-
-> **[`bash install.sh`](#)**
-
+```
+apt update
+apt upgrade -y
+apt install git -y
+git clone https://github.com/Genixcyber/T2-fisher.git
+cd T2-fisher
+bash install.sh
+```
 
 
 # PREVIEWS
