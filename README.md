@@ -1,16 +1,16 @@
 <p align="center">
-<a href="https://Technocyber.ml"><img title="YouTube" src="https://img.shields.io/badge/Made In-India-red?style=for-the-badge&logo="></a>
+<a href="https://Genixcyber.cf/Genix-cyber"><img title="YouTube" src="https://img.shields.io/badge/Made In-India-red?style=for-the-badge&logo="></a>
 </p>
-<a href="https://Technocyber.tk"><img src="img/PicsArt_04-05-01.13.24.png"></a>
-</p>
-<p align="center">
-<a href="https://gitHub.com/Technocyber"><img title="Github" src="https://img.shields.io/badge/Genix-Cyber-brightgreen?style=for-the-badge&logo=github"></a>
-<a href="https://bit.ly/2OT7U1G"><img title="Instagram" src="https://img.shields.io/badge/Instagram-Genixcyber-yellow?style=for-the-badge&logo=Instagram"></a>
+<a href="https://Genixcyber.cf"><img src="img/PicsArt_04-05-01.13.24.png"></a>
 </p>
 <p align="center">
-<a href="https://t.me/T4CHNOCYBER"><img title="Telegram" src="https://img.shields.io/badge/Telegram-black?style=for-the-badge&logo=Telegram"></a>
-<a href="https://linktr.ee/2Timeowl"><img title="whatsapp" src="https://img.shields.io/badge/whatsapp-blue?style=for-the-badge&logo=whatsapp"></a>
-<a href="https://bit.ly/391e3Qh"><img title="YouTube" src="https://img.shields.io/badge/YouTube-purple?style=for-the-badge&logo=YouTube"></a>
+<a href="https://gitHub.com/Genixcyber"><img title="Github" src="https://img.shields.io/badge/Genix-Cyber-brightgreen?style=for-the-badge&logo=github"></a>
+<a href="https://Instagram.com/Genixcyber"><img title="Instagram" src="https://img.shields.io/badge/Instagram-Genixcyber-yellow?style=for-the-badge&logo=Instagram"></a>
+</p>
+<p align="center">
+<a href="https://t.me/Genixcyber"><img title="Telegram" src="https://img.shields.io/badge/Telegram-black?style=for-the-badge&logo=Telegram"></a>
+<a href="https://linktr.ee/Genixcyber"><img title="whatsapp" src="https://img.shields.io/badge/whatsapp-blue?style=for-the-badge&logo=whatsapp"></a>
+<a href="https://youtube.com/channel/UCototzq-p62RvVcIUr3SXmw"><img title="YouTube" src="https://img.shields.io/badge/YouTube-purple?style=for-the-badge&logo=YouTube"></a>
 <p align="center">
 <p align="center">
 </p>
