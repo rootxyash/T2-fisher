@@ -4,8 +4,8 @@
 <a href="https://Technocyber.tk"><img src="img/PicsArt_04-05-01.13.24.png"></a>
 </p>
 <p align="center">
-<a href="https://gitHub.com/Technocyber"><img title="Github" src="https://img.shields.io/badge/Techno-Cyber-brightgreen?style=for-the-badge&logo=github"></a>
-<a href="https://bit.ly/2OT7U1G"><img title="Instagram" src="https://img.shields.io/badge/Instagram-Technocyber.sh-yellow?style=for-the-badge&logo=Instagram"></a>
+<a href="https://gitHub.com/Technocyber"><img title="Github" src="https://img.shields.io/badge/Genix-Cyber-brightgreen?style=for-the-badge&logo=github"></a>
+<a href="https://bit.ly/2OT7U1G"><img title="Instagram" src="https://img.shields.io/badge/Instagram-Genixcyber-yellow?style=for-the-badge&logo=Instagram"></a>
 </p>
 <p align="center">
 <a href="https://t.me/T4CHNOCYBER"><img title="Telegram" src="https://img.shields.io/badge/Telegram-black?style=for-the-badge&logo=Telegram"></a>
