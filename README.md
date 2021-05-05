@@ -58,7 +58,7 @@ bash install.sh
 
 # CONTRIBUTORS 
 
-> **[`Special Thanks to Hackerspunk for helping me in this project.
+> **[`Special Thanks to `Network Slutter` , `ABHacker` & `Htr-Tech` for helping me in this project.
 `](#)**
 
 # WARNING 
