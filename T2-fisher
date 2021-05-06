@@ -1,5 +1,4 @@
 #!/bin/bash
-#overwritten on htr-tech's tool!
 
 trap 'printf "\n";stop;exit 1' 2
 trap user_interrupt SIGINT
