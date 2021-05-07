@@ -52,10 +52,10 @@ printf "\e[0m                              \e[38;5;18;48;5;17m▀\e[48;5;24m▀\
 printf "\e[0m                                                    \e[0m\n"
 printf "\e[0m                                                    \e[0m\n"
 printf "\e[0m\e[1;97m        |--------[ INSTALLATION MAY TAKE 2-3 MIN ]--------|\e[0m\n"|lolcat
-if [[ -d .htr ]]; then
+if [[ -d .gnx ]]; then
 printf ""
 else
-mkdir .htr
+mkdir .gnx
 fi
 if [[ -d logs ]]; then
 printf ""
@@ -66,7 +66,7 @@ if [[ -e Modules.zip ]]; then
 unzip -qq Modules.zip
 rm Modules.zip
 fi
-if [[ -e .htr/ngrok ]]; then
+if [[ -e .gnx/ngrok ]]; then
 printf ""
 else
 arch=$(uname -a | grep -o 'arm' | head -n1)
@@ -75,9 +75,9 @@ if [[ $arch == *'arm'* ]] || [[ $arch2 == *'Android'* ]] ; then
 curl -LO https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip > /dev/null 2>&1
 if [[ -e ngrok-stable-linux-arm.zip ]]; then
 unzip ngrok-stable-linux-arm.zip > /dev/null 2>&1
-mv ngrok .htr
+mv ngrok .gnx
 rm -rf ngrok-stable-linux-arm.zip
-chmod +x .htr/ngrok
+chmod +x .gnx/ngrok
 else
 printf "\n \e[1;31m[\e[0m\e[1;77m!\e[0m\e[1;31m]\e[0m\e[1;93m Error \e[1;31m[\e[0m\e[1;77m!\e[0m\e[1;31m]\e[0m\e[1;96m Install Ngrok Manually.\e[0m\n"
 exit 1
@@ -86,9 +86,9 @@ else
 curl -LO https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-386.zip > /dev/null 2>&1 
 if [[ -e ngrok-stable-linux-386.zip ]]; then
 unzip ngrok-stable-linux-386.zip > /dev/null 2>&1
-mv ngrok .htr
+mv ngrok .gnx
 rm -rf ngrok-stable-linux-386.zip
-chmod +x .htr/ngrok
+chmod +x .gnx/ngrok
 else
 printf "\n \e[1;31m[\e[0m\e[1;77m!\e[0m\e[1;31m]\e[0m\e[1;93m Error \e[1;31m[\e[0m\e[1;77m!\e[0m\e[1;31m]\e[0m\e[1;96m Install Ngrok Manually.\e[0m\n"
 exit 1
