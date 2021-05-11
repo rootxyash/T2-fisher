@@ -29,14 +29,12 @@
 
 # INSTALLATION COMMANDS
 
-```
-apt update
-apt upgrade -y
-apt install git -y
-git clone https://github.com/Genixcyber/T2-fisher.git
-cd T2-fisher
-bash install.sh
-```
+* `apt-get update -y`
+* `apt-get upgrade -y`
+* `pkg install git -y`
+* `git clone https://github.com/Genixcyber/T2-fisher`
+* `cd T2-fisher`
+* `bash install.sh`
 
 
 # PREVIEWS
